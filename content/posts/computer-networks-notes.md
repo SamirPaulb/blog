@@ -34,18 +34,7 @@ draft: false
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 
@@ -83,18 +72,7 @@ All the activity in the Internet that involves two or more communicating remote 
 
 **A protocol defines the format and the order of messages exchanged between two or more communicating entities, as weel as the actions taken on the trasmission and/or receipt of a message or other event**
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ## 1.2 The Network Edge
@@ -178,35 +156,13 @@ Much of the evolution of the structure of the Internet is driven by economics an
 Today's Internet is complex, consisting of a dozen or so tier-1 ISPs and hundreds of thousands of lower-tier ISPs. The ISPs are diverse in their coverage, with some spanning multiple continents and oceans, and others limited to narrow geographic regions. The lower-tier ISPs connect to the higher-tier ISPs and the higher-tier ISPs interconnect with one another. Users and content providers are customers of lower-tier ISPs and lower-tier ISPs are customers of higher-tier ISPs. Recently, major content providers (Google) have also created their own networks and connect directly into lower-tier ISPs where possible.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![network_of_networks](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-network_of_networks.png)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ## 1.4 Delay, Loss and Throughput in Packet-Switched Networks
@@ -219,35 +175,13 @@ As a packet travels from one node (host or router) to the subsequent host along 
 #### Types of Delay
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![type_of_delays](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-type_of_delays.png)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ##### Processing Delay
@@ -493,18 +427,7 @@ In the former approach, the application is said to use **non-persistent connecti
 By default HTTP uses non-persistent connections but can be configured to be use persistent connections.
 To estimate the amount of time that elapses when a client requests the base HTML file until the entire file is received by the client we define the **round-trip time** (**RTT**) which is the time it takes for a small packet to travel from client to server and then back to the client.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 #### HTTP with Non-Persistent Connections
@@ -541,35 +464,13 @@ Accept-language: fr
 The majority of HTTP requests use the GET method, used to request an object.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![http requests](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-http_request.png)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
  The entity body (empty with `GET`) is used by the `POST` method, for example for filling out forms. The user is still requesting a Web page but the specific contents of the page depend on what the user entered into the form fields. When `POST` is used, the entity body contains what the user entered into the form fields.
@@ -692,18 +593,7 @@ Having one single global DNS server would be simple, but it's not realistic beca
 The DNS uses a large number of servers, organized in a hierarchical fashion and distributed around the world.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![dns servers](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-dns-servers.png)
@@ -918,18 +808,7 @@ It is possible for an application developer to have reliable data transfer when 
 ### 3.3.1 UDP Segment Structure
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![udp segment](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-udp_segment.png)
@@ -1005,18 +884,7 @@ TCP therefore splits data into smaller chunks and pairs each chunk of client dat
 ### 3.5.2 TCP Segment Structure
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![tcp segment](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-tcp-segment.png)
@@ -1092,18 +960,7 @@ Acknowledgments are cumulative (GBN) but many TCP implementations will buffer co
 Also consider fast retransmit where only the missing packet is resent (SR) instead of all the window (GBN).
 We can see that TCP's error recovery mechanism is categorized as a **hybdrid of GB and SR protocols**.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ### 3.5.5 Flow Control
@@ -1144,18 +1001,7 @@ We remember that **UDP has no flow control service**
 #### How is the connection established? **Three-way handshake**
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![three way](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-three-way.png)
@@ -1169,18 +1015,7 @@ After this setup, all the segments will have the SYN bit set to 0 in their heade
 #### Tearing down a TCP connection
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![tcp end](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-tcp-end.png)
@@ -1379,18 +1214,7 @@ There 3 main components in the Internet: the IP Protocol (addressing, datagram f
 A network layer packet is referred to as a **datagram**.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![ipv4 datagram](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-ipv4datagram.png)
@@ -1461,18 +1285,7 @@ Every IP-capable device needs an IP address. The number of connected devices gro
 The NAT-enabled router defines a **realm** (or private network) (a network whose addresses only have meaning to devices within that network) and it can use the whole 32 bit address space for devices connected to it, it will also have a public address used to communicate with the exterior. The picture is explicative.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![nat](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-nat.png)
@@ -1507,18 +1320,7 @@ Developed because of IPv4 address space exhaustion
 #### Datagram format
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![ipv6 datagram](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-ipv6datagram.png )
@@ -1541,18 +1343,7 @@ As the transport layer and the link layer already perform check-summing, this fu
 An option field is no longer part of the header, instead it is one of the possible next headers pointed to from the header.
 A **new version of ICMP has been defined for IPv6** which includes messages adapted to IPv6 ("packet too big") and replaces IGMP (Internet Group Management Protocol), used to manage a host's joining and leaving of multicast groups.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 #### Transitioning from IPv4 to IPv6
@@ -1617,18 +1408,7 @@ RIP was started for the Xerox Network Systems (XNS) architecture and was was wid
 **hop** = number of subnets traversed along the shortest path from source to destination subnet, including the destination subnet.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![riphop](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-riphop.png)
@@ -1778,18 +1558,7 @@ The procedure is then:
 ## 8.5 Securing e-mail
 Security functionalities are provided by many layers of the network stack. Why? There is a need for security at higher layers as well as blanket coverage at lower layers and it easier to provide security at higher layers.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ### 8.5.1 Secure E-Mail
@@ -1834,18 +1603,7 @@ The MS could simply be split in four chunks, but real SSL does it differently.
 The real SSL record:
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![ssl record](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-sslrecord.png)
@@ -1898,18 +1656,7 @@ An IPsec entity often maintains state information for many SAs (all outside clie
 IPsec has two different packet forms, one for **tunnel mode** and one for **transport mode**, the first one, being more appropriate for VPNs, is more widely deployed than the transport mode, we will therefore only focus on it.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![ipsec datagram](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-ipsecdatagram.png)
@@ -2056,18 +1803,7 @@ CSMA and CSMA/CD (collision detection) embody two rules:
  - **collision detection**: a transmitting node listens to the channel while it's transmitting, if it detects that another node is transmitting, it stops transmitting and waits for a random amount of time before repeating the sense-and-transmit-when-idle-cycle.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![csmaDIA](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-csmaDIA.png)
@@ -2079,18 +1815,7 @@ When a node detects a collision, it ceases transmission immediately in Collision
 A link layer frame is prepared, if the node senses that the channel is idle (no energy is entering the adapter from the channel), it starts to transmit the frame, else it waits until it detects idle. While transmitting, the node monitors the channel for usage from other nodes, if the entire frame is transmitted without detecting usage, then the adapter is finished. If energy is detected from other adapters while transmitting, the node aborts transmission (stops), waits for  a random amount of time and then returns to checking for idle.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![csmacdDIA](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-csmacdDIA.png)
@@ -2109,18 +1834,7 @@ However it introduces a *polling delay* (the amount of time required to notify a
 
 The second protocol is the **token-passing protocol** in which there is no master method. A small, special purpose frame known as **token** is exchanged among the nodes in some fixed order. When a node receives a toke, it holds it only if it has some frames to transmit otherwise it immediately forwards it to the next node.If a node has frames to transmit when it receives the token, it sends up to a maximum number of frames and then passes the token. Token passing is decentralized and highly efficient but the failure of one node could crash the entire channel, or a node could neglect to release the token....
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ### 5.3.4 DOCSIS: The Link-Layer Protocol for Cable Internet Access
@@ -2161,18 +1875,7 @@ At the beginning the original Ethernet LAN used a coaxial bus to interconnect th
 #### Ethernet Frame Structure
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![ethernet frame](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-ethernetframe.png)
@@ -2226,18 +1929,7 @@ Advantages over buses or hubs:
  - *Heterogeneous links*: The switch providing isolation, different links can operate at different speeds and run over different media. Therefore switches are ideal for mixing legacy equipment with new equipment.
  - *Management*: A switch can disconnect a malfunctioning adapter and a cut cable isolates only one host. Switches can gather statistics useful for debugging and planning the evolution of the network.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 #### Switches Versus Routers
@@ -2247,18 +1939,7 @@ However to **prevent the cycling of broadcast frames, the active topology of a s
 Routers network addressing is hierarchical, packets do not normally cycle and the topology is not limited to a spanning tree even when the network has redundant paths. Therefore packets can use the best path between source and destination. But routers are not plug-and-play (a host need the IP to connect) and often have a larger per-packet processing time than switches. Finally two pronunciation cause a lot of disputes.
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![interconnectiondevices](https://raw.githubusercontent.com/SamirPaulb/assets/main/blog-interconnectiondevices.png)
@@ -2266,33 +1947,11 @@ Routers network addressing is hierarchical, packets do not normally cycle and th
 
 ### PDF Note👇
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 <object data="https://scdn.netlify.app/computer_networking_notes_for_tech_placements.pdf" loading="lazy" type="application/pdf" width="100%" height="700px">
 </object>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 

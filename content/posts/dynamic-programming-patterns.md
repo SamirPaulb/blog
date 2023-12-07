@@ -12,35 +12,13 @@ draft: false
 ---
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![Banner](https://user-images.githubusercontent.com/77569653/226705479-a4d6c0a3-0191-4d45-8bf6-597ffaa5de40.png)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 Before starting the topic let me introduce myself. I am a Mobile Developer currently working in Warsaw and spending my free time for interview preparations. I started to prepare for interviews two years ago. At that time I should say I could not solve the two sum problem. Easy problems seemed to me like hard ones so most of the time I had to look at editorials and discuss section. Currently, I have solved ~800 problems and time to time participate in contests. I usually solve 3 problems in a contest and sometimes 4 problems. Ok, lets come back to the topic.
@@ -49,18 +27,7 @@ Recently I have concentrated my attention on Dynamic Programming cause its one o
 
 # Patterns
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ---
@@ -277,18 +244,7 @@ for (int stair = 2; stair <= n; ++stair) {
 
 [62\. Unique Paths](https://leetcode.com/problems/unique-paths/) `Medium`
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ### Top-Down
@@ -543,18 +499,7 @@ for (int l = 1; l < n; ++l) {
 }
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 [516\. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) `Medium`
@@ -617,16 +562,5 @@ for (int i = 1; i < n; ++i) {
 
 I hope these tips will be helpful 😊
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 

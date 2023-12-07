@@ -52,18 +52,7 @@ draft: false
 ![Linux Shells and Processes - LinkedIn learning-1](https://user-images.githubusercontent.com/77569653/207000846-d0da3ea5-9d18-40b6-a4ac-7eecf8c0d95f.jpg)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ![Machine Learning Coursera VJHQ4C2F8LDA-1](https://user-images.githubusercontent.com/77569653/207000849-c222d1f0-3856-4fad-8f59-380a503665b5.jpg)
@@ -75,16 +64,5 @@ draft: false
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 

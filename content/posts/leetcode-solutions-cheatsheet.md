@@ -79,16 +79,7 @@ draft: false
 - [11-Container with the Most Water](#11-container-with-the-most-water)
 	- [Brute Force](#brute-force-3)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="2447305919"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+  
 
 	- [Two Pointer Approach](#two-pointer-approach)
 - [12-Integer To Roman](#12-integer-to-roman)
@@ -117,16 +108,7 @@ draft: false
 	- [Counting method](#counting-method)
 	- [Stacks](#stacks)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="2447305919"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+  
 
 - [21-Merge Two Sorted Lists](#21-merge-two-sorted-lists)
 	- [Recursive](#recursive)
@@ -148,18 +130,7 @@ draft: false
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Example:
 ```
 Given nums = [2, 7, 11, 15], target = 9,
@@ -282,18 +253,7 @@ class Solution {
 Longest Substring Without Repeating Characters 
 
 Given a string find the length of the longest substring without repeating characters. 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```
 Example
 Input: 		"abcabcbb"
@@ -461,18 +421,7 @@ Space complexity: 	O(min(m,n))	Same as the brute force method, we need O(k) spac
 					charset/alphabet m
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 <br><br>
 <a name="substringNoRepeatOptimized"></a>
 ## Sliding Window Optimized 
@@ -668,18 +617,7 @@ class Solution {
 ```
 
 **Complexity Analysis**
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```
 Time Complexity: O(log(min(m,n)))	At first the searching range is [0,m] and the length of this 
 					searching range will be reduced by half after each loop so we
@@ -860,18 +798,7 @@ P           I
 
 By iterating through the string from left to right we can easily determine which row in the Zig-Zag
 pattern that a character belongs to
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 <br><br>
 *Algorithm*
 
@@ -1025,18 +952,7 @@ it is easy to check beforehand whether or not this statement would cause an over
 1. If temp=rev\*10+pop causes an overflow, then rev>=INTMAX/10
 2. If rev> INTMAX/10, then temp=rev\*10+pop is guaranteed to overflow
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 3. if rev==INTMAX/10, then temp=rev\*10 + pop will overflow if an only if pop>7
 
@@ -1219,18 +1135,7 @@ Explanation: 	Reads 01 from right to left. Therefore it is not a palindrome
 A first idea which may come to mind is to convert the number into a string and check if the string is a
 palindrome but this would require extra non-constant space for creating the string not allowed by the 
 problem description 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Second idea would be reverting the number itself and comparing the number with the original number, if
 they are the same then the number is a palindrome, however if the reversed number is larger than 
 int.MAX we will hit integer overflow problem. 
@@ -1357,18 +1262,7 @@ Input:
 <br><br>
 <a name="regularExpressionMatchingRecursion"></a>
 ## Recursion
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 If there were no Kleene stars (the * wildcard characters for regular expressions), the problem would 
 be easier- we simply check from left to right if each character of the text matches the pattern. When
 a star is present we may need to check for may different suffixes of the text and see if they match
@@ -1594,18 +1488,7 @@ We take two pointers, one at the beginning and one at the end of the array const
 the lines. Further, we maintain a variable maxarea to store the maximum area obtained till now. At 
 every step, we find out the area formed between them, update maxarea and move the pointer pointing to 
 the shorter line towards the other end by one step. 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Initially we consider the area constituting the exterior most lines. Now to maximize the area we need
 to consider the area between the lines of larger lengths. If we try to move the pointer at the longer
 line inwards, we won't gain any increase in area, since it is limited by the shorter line. But moving
@@ -1747,18 +1630,7 @@ M		1000
 
 For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as
 XII which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II. 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Roman numerals are usually written largest to smallest from left to right. However, the numeral for 
 four is not IIII. Instead, the number four is written as IV. Because the one is before the five we 
 subtract it making four. The same principle applies to the number nine which is written as IX. There 
@@ -1990,18 +1862,7 @@ prefix in a set of strings [S1 ... Sn], 1<k<n
 
 <br><br>
 *Algorithm* 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 To apply the previous observation, we use the divide and conquer technique, where we split the 
 LCP(Si ... Sj) problem into two subproblems LCP(Si ... Smid) and LCP(Smid+1 ... Sj), where mid is 
 (i+j)/2. We use their solutions lcpLeft and lcpRight to construct the solution of the main problem 
@@ -2172,18 +2033,7 @@ We coule optimize LCP queries by storing the set of keys S in a Trie. See this f
 implementation. In a Trie, each node descending from the root represents a common prefix of some keys. But we need to 
 find the longest common prefix of a string q and all key strings. This means that we have to find the
 deepest path from the root, which satisfies the following conditions 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 * it is a prefix of query string q
 * each node along the path must contain only one child element. Otherwise the found path will not be a
   common prefix among all strings
@@ -2222,18 +2072,7 @@ LCP "le" FOUND	=============>   3
 				        
 END OF KEY "lead"	  7		 5   End of key "leet"
 ```
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 ```
@@ -3285,18 +3124,7 @@ class solution {
 ***
 <a name="generateParentheses"></a>
 # 22-Generate Parentheses
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
 
@@ -3405,18 +3233,7 @@ Space Complexity: 	O(2^2n * n) 	Naively, every sequence could be valid, see Clos
 Instead of adding `(` or `)` every time as we do in the Brute Force algorithm, let's only add them 
 when we know it will remain a valid sequence. We can do this by keeping track of the number of opening
 and closing brackets we have placed so far. 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 We can start an opening bracket if we still have one (of `n`) left to place. And we can start a closing
 bracket if it would not exceed the number of opening brackets 
 
@@ -3454,18 +3271,7 @@ class Solution {
 Our complexity analysis rests on understanding how many elements there are in `generateParenthesis(n)`.
 This analysis is outside the scope of this article, but it turns out this is the nth Catalan number 
 1/(n+1) (2n choose n), which is bounded asymptotically by 4^n/(n* sqrt(n)). 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```
 Time Complexity: 	O((4^n)/sqrt(n))	Each valid sequence has at most n steps during the 
 						backtracking procedure
@@ -3552,18 +3358,7 @@ Space Complexity: 	O((4^n)/sqrt(n))
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 
 
@@ -3594,18 +3389,7 @@ Output: 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> 5 -> 6
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 <br><br>
 <a name="mergeKSortedLists"></a>
@@ -3666,18 +3450,7 @@ cache.get(2);			// returns -1 (not found)
 11.  [Convert Sorted Array to Binary Search Tree](#convert-sorted-array-to-binary-search-tree)
 12.  [Balanced Binary Tree](#balanced-binary-tree)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 13.  [Minimum Depth of Binary Tree](#minimum-depth-of-binary-tree)
 14.  [Path Sum](#path-sum)
@@ -3719,18 +3492,7 @@ cache.get(2);			// returns -1 (not found)
 50.  [Invert Binary Tree](#invert-binary-tree)
 51.  [Fibonacci Number](#fibonacci-number)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 52.  [kth Largest Element](#kth-largest-element)
 53.  [Power Of Two](#power-of-two)
@@ -3786,18 +3548,7 @@ cache.get(2);			// returns -1 (not found)
 103.  [Number Complement](#number-complement)
 104.  [Binary Watch](#binary-watch)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 105.  [Minimum Moves to Equal Array Elements](#minimum-moves-to-equal-array-elements)
 106.  [License Key Formatting](#license-key-formatting)
@@ -5024,18 +4775,7 @@ private void swap(int i, int j){
 }
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 ### [Power Of Two](https://leetcode.com/problems/power-of-two/)<a name="power-of-two"></a>
 ```java
@@ -6411,18 +6151,7 @@ private void helper(int lightsUsed, int numOfLights, int hrs, int min){
 
 ### [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)<a name="minimum-moves-to-equal-array-elements"></a>
 This was an interesting problem. But after working out a few examples by hand, you can notice that it is always a question of bringing the minimum element in par with everyone. So if you know the minimum of the array, we can check how many steps it will take to bring the minimum in par with other element by calculating the distance between them. For example,
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 > Let the array be [1,2,3]
 >
 > We can observe that the minimum here is 1. Let us list down all steps to make all elements equal.
@@ -6449,18 +6178,7 @@ public int minMoves(int[] nums){
 ```
 
 > Now the above solution required two passes of the array. Can we do even better? Notice that in the end, all we are doing is finding the min and subtracting min from all the elements in the array. That means we are subtracting min *n* times where n is the length of the array. Why *n* times? Because there are *n* elements in the array. Shouldn't it be *(n-1)* times? No, because the distance of the min from min is 0. So we need to subtract min from itself too, so *n* times. We can achieve this by first calculating the total of the array while simultaneously keeping track of the minimum. Once done, all we need to do is subtract min *n* times from the sum, which is equivalent to subtracting min from each element. This results in a much overall better algorithm, requiring only 1 pass of the array.
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```java
 public int minMoves(int[] nums) {
     int sum = 0, min = nums[0];
@@ -6565,18 +6283,7 @@ public int findMaxConsecutiveOnes(int[] nums) {
 
 ### [Permutations](https://leetcode.com/problems/permutations/)<a name="permutations"></a>
 The idea is as follows. Given an array a = {1,2,3}, we want to generate all it's possible combinations. What we are trying to do here is that we first take the element at index 0, and find permutations of the remaining thing. When we do that, we insert the element at index 0 in front of the list to get 1 permutation. Similarly, we then take the element at index 1, and permute the remaining contents of the array and insert the element at index 1 in the beginning of the array to get another permutation and so on. In this problem, we are asked to return a list of list, so we first copy the numbers of the array into an ArrayList. Let's run this code for the above example.
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 > Given nums = {1,2,3}, our ArrayList will be the same, al = [1,2,3]. Our result list is empty, result = [] and index = 0.
 >
 > **helper([1,2,3], 0)**
@@ -6724,18 +6431,7 @@ public List<Interval> merge(List<Interval> intervals) {
 2. counterK keeps track of where to insert the element in array 'a', since a has enough space. The problem states that it might have more than enough space, so we use only the spaces we need, which is the total of both their sizes. Since indexing in an array is 0-based, we subtract 1.
 3. We insert elements from the end, since the end part of 'a' is empty. We can insert from the front, but then we would need to shift elements to the right after each insertion from 'b'.
 4. If array values are equal, add them to the end, and decrease both their counter to check new values in the next iteration
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 5. If not equal, then check which one is greater, since the last part of the array should contain larger values. Whichever's greater, put it in 'a' at index 'counterA' and decrement the respective counter.
 6. In the end, we might have some leftover elements either from 'a' or 'b' because we only process elements that are equal to the **min(size(a), size(b))**, until we run out of elements in one of the array. So, whichever array has elements pending, add it to the front of the array and return a.
@@ -6789,18 +6485,7 @@ public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
 
 ### [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)<a name="string-without-aaa-or-bbb"></a>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 ```java
 public String strWithout3a3b(int A, int B) {				
@@ -6911,18 +6596,7 @@ private void updateMode(TreeNode node){
 }
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 
 ### [Base 7](https://leetcode.com/problems/base-7/)<a name="base-7"></a>
 Solution 1 without StringBuilder (Beats 100%, 7ms)
@@ -6976,18 +6650,7 @@ public String convertToBase7(int num) {
 
 ### [Relative Ranks](https://leetcode.com/problems/relative-ranks/)<a name="relative-ranks"></a>
 The idea employed here is simple. We need to store the relative ranks in sorted order. We can sort the array for that, but that is O(n log n). We can do better than that by finding the relative rank in linear time. First we find the maximum score in the array and create another array of length = maxScore + 1. We add 1 so that when we see the maxScore in the nums, we can assign it to maxScore index. Once we have done that, now we iterate over the nums array. Variable i keeps track of what rank to assign. We check a value in the array and at that index in our reverse sorted array, we put i+1, which basically marks it's rank based on it's position in the rankings. Some of then indexes would be default, that is a score of 0. We then check each value in the descend array and if it's not 0, we assign it a rank, but not if the ranks are 1, 2 or 3. In that case, we assign it a special value of Gold, SIlver or Bronze.
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```java
 public String[] findRelativeRanks(int[] nums) {
     int maxScore = nums[0];
@@ -7117,18 +6780,7 @@ Memory Usage: 35.9 MB, less than 98.63% of Java online submissions for Letter Co
 ---
 
 How do we count numbers? 16, 17, 18, 19 and then what? 20 right? We see that the last number is 19, we can't go past 9 so we set it to 0 and then increment the precedding digit to get 20. The idea is the same for this problem too. We keep a `levels` array to keep track of which character do we take from which number's allowed alphabet letters. For example, let's say the input string is `23`. Our `levels` array would `[0, 0]` in the beginning. This says pick characters at index 0 and 0 from alphabet characters corresponding to 2 and 3 which gives us `ad`. Then, we increase the last most counter in our levels array by 1 giving us `[0, 1]`. This allows us to get `ae` in the next iteration and levels array would be `[0, 2]`. We get `af` and levels array becomes `[0, 3]`. Now this is where it becomes interesting. We are only allowed three letters for the digit corresponding to 3 and since we already used all of them , we now need to shift to the next character for digit 2, which is `b`. Level array looks like `[1, 0]`. This will allow us to get `[b,e]`. So you get the rough idea now. Only thing now is we watch out when to stop. We stop when we have utilized all available characters from the 0th index's number's allowed alphabet letters. In this case, we stop when levels array look like `[3, 0]`.
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 ```java
 class Solution {
 	private char[][] map = {
@@ -7961,18 +7613,7 @@ private void reverse(int[] arr, int start) {
 ```
 
 ### [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<a name="search-in-rotated-sorted-array"></a>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 The idea is same as binary search except you need to keep track of which half to stay in. We compute the middle index and the value at that index. If the middle value is the target, then return that index. Otherwise, find the correct half. If the number on the left side is < middle value then we know that between the left and middle index, values are increasing. We only need to now check if target is < middle value, if so we need to adjust our right pointer otherwise adjust the left pointer. If left value is not < middle value then we are at a shift where the array is pivoted. We again need to confirm now which half to take. There would be some index `i` such that `nums[left] > nums[i] < nums[mid]` and value are increasing upto `i` and shifts from index `i` onwards. In this case, we again need to adjust our index pointers and we repeat this loop until `left <= right`
 
 ```java
@@ -8001,18 +7642,7 @@ public int search(int[] nums, int target) {
 ```
 
 ### [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)<a name="transpose-matrix"></a>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
-     crossorigin="anonymous"></script>
-<!-- Display ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8274401353019049"
-     data-ad-slot="5522300086"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+ 
 Pretty straightforward. Create matrix B of opposite dimensions to those of A. We maintain `br` and `bc` which tracks row and columns of B. We iterate over each element of A and put it in `B[br][bc]` and then ideally we would increment `bc` for an exact copy, but since we want transpose, we increment `br` and then reset it to 0 if we fill all the values in a row and increment column count, giving us the tranpose of the matrix.
 
 ```java
