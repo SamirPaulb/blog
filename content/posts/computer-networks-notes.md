@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Computer Networks Notes"
 tags: [blog, coding, computer-science, computer-networks,computer-networks-notes,notes,computernetwork,computernetworking,computer,ipv,icnd,computertechnology,ccna,routingandswitching,networking,osi-model,computernetworkingtechnology]
 cover:
-  image: "/assets/img/computer-networks-preview-blog-banner.webp"
+  image: "https://scdn.netlify.app/img/computer-networks-preview-blog-banner.webp"
   alt: "Computer Networks Notes"
   caption: "Computer Networks Notes"
 
 images:
-  - /assets/img/computer-networks-preview-blog-banner.webp
+  - https://scdn.netlify.app/img/computer-networks-preview-blog-banner.webp
 
 # videos:
 #   - filename01.mov
@@ -2280,7 +2280,7 @@ Routers network addressing is hierarchical, packets do not normally cycle and th
 </script>
 
 
-<object data="https://samirpaulb.github.io/assets/computer_networking_notes_for_tech_placements.pdf" loading="lazy" type="application/pdf" width="100%" height="700px">
+<object data="https://scdn.netlify.app/computer_networking_notes_for_tech_placements.pdf" loading="lazy" type="application/pdf" width="100%" height="700px">
 </object>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"

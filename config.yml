@@ -67,10 +67,10 @@ params:
     images: ["https://scdn.netlify.app/blog-featured-image-samirpaul-in-blog.webp"]
 
     profileMode:
-        enabled: true
+        enabled: false
         title: Samir Paul
-        subtitle: <a href="#"><img  alt="Welcome" src="https://scdn.netlify.app/samirpaul-blog-welcome.svg" width="345px" height="29px" loading="lazy" /></a>
-        imageUrl: "https://scdn.netlify.app/profile-image-SamirPaul-website.webp"
+        subtitle: <a href="#"><img  alt="Welcome" src="/samirpaul-blog-welcome.svg" width="345px" height="29px" loading="lazy" /></a>
+        imageUrl: "/avatar.webp"
         imageTitle: Samir Paul
         # imageWidth: 120
         # imageHeight: 120
@@ -79,6 +79,11 @@ params:
               url: about
             - name: Blog
               url: posts
+    
+    homeInfoParams:
+        Title: Hi there👋
+        Content: <b>Welcome to my technical blog!</b> Here I write content about Computer Science, Data Structures Algorithms, Networking, Artificial Intelligence and Coding Interview Preparation. <br><small><i>All contents on this site are my own personal opinions/ideas and do not reflect the opinions of my institutions/organizations.</i></small>
+
 
     socialIcons:
         - name: GitHub

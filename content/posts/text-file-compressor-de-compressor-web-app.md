@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Text File Compressor De-compressor Web App"
 tags: [txt-compressor]
 cover:
-  image: "/assets/img/text-file-compressor-de-compressor-web-app-preview.webp"
+  image: "https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-preview.webp"
   alt: "Text File Compressor De-compressor Web App"
   caption: "Text File Compressor De-compressor Web App"
 
 images:
-  - /assets/img/text-file-compressor-de-compressor-web-app-preview.webp
+  - https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-preview.webp
 
 # videos:
 #   - filename01.mov
@@ -62,11 +62,11 @@ draft: false
 
 - [x] Landing Page:
 
-![landing-page](/assets/img/text-file-compressor-de-compressor-web-app-landing-page.png) 
+![landing-page](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-landing-page.png) 
 
 - [x] Upload File
 
-![step1](/assets/img/text-file-compressor-de-compressor-web-app-step1.png) 
+![step1](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-step1.png) 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -85,7 +85,7 @@ draft: false
 
 - [x] Select Action (Compress / De-compress)
 
-![step2](/assets/img/text-file-compressor-de-compressor-web-app-step2.png) 
+![step2](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-step2.png) 
 
 
 - [x] Wait for File Download
@@ -93,23 +93,23 @@ draft: false
 
     * Compression - Compression Ratio is also displayed 
 
-    ![compression](/assets/img/text-file-compressor-de-compressor-web-app-step3.png)
+    ![compression](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-step3.png)
     
     * De-compression
 
-    ![decompression](/assets/img/text-file-compressor-de-compressor-web-app-decompression.png)
+    ![decompression](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-decompression.png)
 
 - Additional Instructions and Warnings are provided if the above steps are not followed correctly
 
-![noFile](/assets/img/text-file-compressor-de-compressor-web-app-nofile.png) 
+![noFile](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-nofile.png) 
 
-![smallFile](/assets/img/text-file-compressor-de-compressor-web-app-verysmallfile.png)
+![smallFile](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-verysmallfile.png)
 
 
 
 - About the tecnique of Lossless Data Compression with Huffman coding.
 
-![info1](/assets/img/text-file-compressor-de-compressor-web-app-info.jpeg) 
+![info1](https://scdn.netlify.app/img/text-file-compressor-de-compressor-web-app-info.jpeg) 
 
 
 

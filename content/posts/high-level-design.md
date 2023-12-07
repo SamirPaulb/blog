@@ -17,22 +17,22 @@ draft: false
 
 # Ticketmaster
 
-![ticketmaster-overview](/assets/img/system-design/ticketmaster-overview.png)
+![ticketmaster-overview](https://scdn.netlify.app/img/system-design/ticketmaster-overview.png)
 
 ---
 
 # Pastebin
 
-![pastebin-overview](/assets/img/system-design/pastebin-overview.png)
-![pastebin-detail](/assets/img/system-design/pastebin-detail.png)
+![pastebin-overview](https://scdn.netlify.app/img/system-design/pastebin-overview.png)
+![pastebin-detail](https://scdn.netlify.app/img/system-design/pastebin-detail.png)
 
 ---
 
 
 # Instagram
 
-![instagram-overview](/assets/img/system-design/instagram-overview.png)
-![instagram-detail](/assets/img/system-design/instagram-detail.png)
+![instagram-overview](https://scdn.netlify.app/img/system-design/instagram-overview.png)
+![instagram-detail](https://scdn.netlify.app/img/system-design/instagram-detail.png)
 
 
 ---
@@ -40,8 +40,8 @@ draft: false
 
 # Dropbox
 
-![dropbox-overview](/assets/img/system-design/dropbox-overview.png)
-![dropbox-detail](/assets/img/system-design/dropbox-detail.png)
+![dropbox-overview](https://scdn.netlify.app/img/system-design/dropbox-overview.png)
+![dropbox-detail](https://scdn.netlify.app/img/system-design/dropbox-detail.png)
 
 
 ---
@@ -49,8 +49,8 @@ draft: false
 
 # Twitter
 
-![twitter-overview](/assets/img/system-design/twitter-overview.png)
-![twitter-detail](/assets/img/system-design/twitter-detail.png)
+![twitter-overview](https://scdn.netlify.app/img/system-design/twitter-overview.png)
+![twitter-detail](https://scdn.netlify.app/img/system-design/twitter-detail.png)
 
 
 ---
@@ -58,8 +58,8 @@ draft: false
 
 # Twitter Search
 
-![twitter-search-overview](/assets/img/system-design/twitter-search-overview.png)
-![twitter-search-detail](/assets/img/system-design/twitter-search-detail.png)
+![twitter-search-overview](https://scdn.netlify.app/img/system-design/twitter-search-overview.png)
+![twitter-search-detail](https://scdn.netlify.app/img/system-design/twitter-search-detail.png)
 
 
 ---
@@ -67,8 +67,8 @@ draft: false
 
 # Youtube
 
-![youtube-overview](/assets/img/system-design/youtube-overview.png)
-![youtube-detail](/assets/img/system-design/youtube-detail.png)
+![youtube-overview](https://scdn.netlify.app/img/system-design/youtube-overview.png)
+![youtube-detail](https://scdn.netlify.app/img/system-design/youtube-detail.png)
 
 
 ---
@@ -76,8 +76,8 @@ draft: false
 
 # Web Crawler
 
-![web-crawler-overview](/assets/img/system-design/web-crawler-overview.png)
-![web-crawler-detail](/assets/img/system-design/web-crawler-detail.png)
+![web-crawler-overview](https://scdn.netlify.app/img/system-design/web-crawler-overview.png)
+![web-crawler-detail](https://scdn.netlify.app/img/system-design/web-crawler-detail.png)
 
 
 ---
@@ -85,7 +85,7 @@ draft: false
 
 # Facebook Newsfeed
 
-![facebook-newsfeed-overview](/assets/img/system-design/facebook-newsfeed-overview.png)
+![facebook-newsfeed-overview](https://scdn.netlify.app/img/system-design/facebook-newsfeed-overview.png)
 
 
 
@@ -94,7 +94,7 @@ draft: false
 
 # Yelp
 
-![yelp-overview](/assets/img/system-design/yelp-overview.png)
+![yelp-overview](https://scdn.netlify.app/img/system-design/yelp-overview.png)
 
 
 ---
@@ -102,7 +102,7 @@ draft: false
 
 # Uber Backend
 
-![uber-backend-overview](/assets/img/system-design/uber-backend-overview.png)
+![uber-backend-overview](https://scdn.netlify.app/img/system-design/uber-backend-overview.png)
 
 
 ---

@@ -253,7 +253,7 @@ The OSI Model can be seen as a universal language for computer networking. It's 
 </script>
 
 
-![osi-model](/assets/img/system-design/osi-model.jpg)
+![osi-model](https://scdn.netlify.app/img/system-design/osi-model.jpg)
  
 ## Why does the OSI model matter?
 
@@ -328,7 +328,7 @@ Transmission Control Protocol (TCP) is connection-oriented, meaning once a conne
 </script>
 
 
-![tcp](/assets/img/system-design/tcp.jpg)
+![tcp](https://scdn.netlify.app/img/system-design/tcp.jpg)
 
 But while TCP is instinctively reliable, its feedback mechanisms also result in a larger overhead, translating to greater use of the available bandwidth on the network.
 
@@ -348,7 +348,7 @@ But while TCP is instinctively reliable, its feedback mechanisms also result in 
 
 User Datagram Protocol (UDP) is a simpler, connectionless internet protocol in which error-checking and recovery services are not required. With UDP, there is no overhead for opening a connection, maintaining a connection, or terminating a connection. Data is continuously sent to the recipient, whether or not they receive it.
 
-![udp](/assets/img/system-design/udp.jpg)
+![udp](https://scdn.netlify.app/img/system-design/udp.jpg)
 
 It is largely preferred for real-time communications like broadcast or multicast network transmission. We should use UDP over TCP when we need the lowest latency and late data is worse than the loss of data.
 
@@ -391,7 +391,7 @@ Video: **https://youtu.be/vhfRArT11jc**
 </script>
 
 
-![how-dns-works](/assets/img/system-design/how-dns-works.jpg)
+![how-dns-works](https://scdn.netlify.app/img/system-design/how-dns-works.jpg)
 
 DNS lookup involves the following eight steps:
 
@@ -467,7 +467,7 @@ There are three types of queries in a DNS system:
 </script>
 
 
-![dns-query-types](/assets/img/system-design/Iterative-and-recursive-dns-query-diagram.jpg)
+![dns-query-types](https://scdn.netlify.app/img/system-design/Iterative-and-recursive-dns-query-diagram.jpg)
 
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -565,7 +565,7 @@ These are some widely used managed DNS solutions:
 
 Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand dictates.
 
-![load-balancing](/assets/img/system-design/load-balancer.jpg)
+![load-balancing](https://scdn.netlify.app/img/system-design/load-balancer.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -584,7 +584,7 @@ Load balancing lets us distribute incoming network traffic across multiple resou
 
 For additional scalability and redundancy, we can try to load balance at each layer of our system:
 
-![load-balancing-layers](/assets/img/system-design/load-balancer-layers.jpg)
+![load-balancing-layers](https://scdn.netlify.app/img/system-design/load-balancer-layers.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -688,7 +688,7 @@ As you must've already guessed, the load balancer itself can be a single point o
 
 And, if there's a failure detection and the _active_ load balancer fails, another _passive_ load balancer can take over which will make our system more fault-tolerant.
 
-![redundant-load-balancing](/assets/img/system-design/redundant-load-balancer.jpg)
+![redundant-load-balancing](https://scdn.netlify.app/img/system-design/redundant-load-balancer.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -767,7 +767,7 @@ To build a computer cluster, the individual nodes should be connected to a netwo
 </script>
 
 
-![cluster](/assets/img/system-design/cluster.jpg)
+![cluster](https://scdn.netlify.app/img/system-design/cluster.jpg)
 
 Typically, at least one node is designated as the leader node and acts as the entry point to the cluster. The leader node may be responsible for delegating incoming work to the other nodes and, if necessary, aggregating the results and returning a response to the user.
 
@@ -802,7 +802,7 @@ The two most commonly used high availability (HA) clustering configurations are 
 </script>
 
 
-![active-active](/assets/img/system-design/active-active.jpg)
+![active-active](https://scdn.netlify.app/img/system-design/active-active.jpg)
 
 An active-active cluster is typically made up of at least two nodes, both actively running the same kind of service simultaneously. The main purpose of an active-active cluster is to achieve load balancing. A load balancer distributes workloads across all nodes to prevent any single node from getting overloaded. Because there are more nodes available to serve, there will also be an improvement in throughput and response times.
 
@@ -823,7 +823,7 @@ An active-active cluster is typically made up of at least two nodes, both active
 </script>
 
 
-![active-passive](/assets/img/system-design/active-passive.jpg)
+![active-passive](https://scdn.netlify.app/img/system-design/active-passive.jpg)
 
 Like the active-active cluster configuration, an active-passive cluster also consists of at least two nodes. However, as the name _active-passive_ implies, not all nodes are going to be active. For example, in the case of two nodes, if the first node is already active, then the second node must be passive or on standby.
 
@@ -903,7 +903,7 @@ _"There are only two hard things in Computer Science: cache invalidation and nam
 </script>
 
 
-![caching](/assets/img/system-design/caching.jpg)
+![caching](https://scdn.netlify.app/img/system-design/caching.jpg)
 
 A cache's primary purpose is to increase data retrieval performance by reducing the need to access the underlying slower storage layer. Trading off capacity for speed, a cache typically stores a subset of data transiently, in contrast to databases whose data is usually complete and durable.
 
@@ -971,7 +971,7 @@ Cache invalidation is a process where the computer system declares the cache ent
 </script>
 
 
-![write-through-cache](/assets/img/system-design/write-through-cache.jpg)
+![write-through-cache](https://scdn.netlify.app/img/system-design/write-through-cache.jpg)
 
 Data is written into the cache and the corresponding database simultaneously.
 
@@ -981,7 +981,7 @@ Data is written into the cache and the corresponding database simultaneously.
 
 ### Write-around cache
 
-![write-around-cache](/assets/img/system-design/write-around-cache.jpg)
+![write-around-cache](https://scdn.netlify.app/img/system-design/write-around-cache.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -1006,7 +1006,7 @@ Where write directly goes to the database or permanent storage, bypassing the ca
 
 ### Write-back cache
 
-![write-back-cache](/assets/img/system-design/write-back-cache.jpg)
+![write-back-cache](https://scdn.netlify.app/img/system-design/write-back-cache.jpg)
 
 Where the write is only done to the caching layer and the write is confirmed as soon as the write to the cache completes. The cache then asynchronously syncs this write to the database.
 
@@ -1040,7 +1040,7 @@ Following are some of the most common cache eviction policies:
 
 ## Distributed Cache
 
-![distributed-cache](/assets/img/system-design/distributed-cache.jpg)
+![distributed-cache](https://scdn.netlify.app/img/system-design/distributed-cache.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -1076,7 +1076,7 @@ A distributed cache is a system that pools together the random-access memory (RA
 </script>
 
 
-![global-cache](/assets/img/system-design/global-cache.jpg)
+![global-cache](https://scdn.netlify.app/img/system-design/global-cache.jpg)
 
 As the name suggests, we will have a single shared cache that all the application nodes will use. When the requested data is not found in the global cache, it's the responsibility of the cache to find out the missing piece of data from the underlying data store.
 
@@ -1136,7 +1136,7 @@ Here are some commonly used technologies for caching:
 
 A content delivery network (CDN) is a geographically distributed group of servers that work together to provide fast delivery of internet content. Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN.
 
-![cdn-map](/assets/img/system-design/cdn-map.jpg)
+![cdn-map](https://scdn.netlify.app/img/system-design/cdn-map.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -1159,7 +1159,7 @@ Content Delivery Network (CDN) increases content availability and redundancy whi
 
 ## How does a CDN work?
 
-![cdn](/assets/img/system-design/cdn.jpg)
+![cdn](https://scdn.netlify.app/img/system-design/cdn.jpg)
 
 In a CDN, the origin server contains the original versions of the content while the edge servers are numerous and distributed across various locations around the world.
 
@@ -1240,7 +1240,7 @@ There are two types of proxies:
 
 A forward proxy, often called a proxy, proxy server, or web proxy is a server that sits in front of a group of client machines. When those computers make requests to sites and services on the internet, the proxy server intercepts those requests and then communicates with web servers on behalf of those clients, like a middleman.
 
-![forward-proxy](/assets/img/system-design/forward-proxy.jpg)
+![forward-proxy](https://scdn.netlify.app/img/system-design/forward-proxy.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -1274,7 +1274,7 @@ A reverse proxy is a server that sits in front of one or more web servers, inter
 
 The difference between a forward and reverse proxy is subtle but important. A simplified way to sum it up would be to say that a forward proxy sits in front of a client and ensures that no origin server ever communicates directly with that specific client. On the other hand, a reverse proxy sits in front of an origin server and ensures that no client ever communicates directly with that origin server.
 
-![reverse-proxy](/assets/img/system-design/reverse-proxy.jpg)
+![reverse-proxy](https://scdn.netlify.app/img/system-design/reverse-proxy.jpg)
 
 Introducing reverse proxy results in increased complexity. A single reverse proxy is a single point of failure, configuring multiple reverse proxies (i.e. a failover) further increases complexity.
 
@@ -1378,7 +1378,7 @@ A fault-tolerant system has no service interruption but a significantly higher c
 
 Scalability is the measure of how well a system responds to changes by adding or removing resources to meet demands.
 
-![scalability](/assets/img/system-design/scalability.jpg)
+![scalability](https://scdn.netlify.app/img/system-design/scalability.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -1591,7 +1591,7 @@ Data in a table is recorded in rows. There can be thousands or millions of rows 
 
 ## Types
 
-![database-types](/assets/img/system-design/database-types.jpg)
+![database-types](https://scdn.netlify.app/img/system-design/database-types.jpg)
 
 Below are different types of databases:
 
@@ -1969,7 +1969,7 @@ Replication is a process that involves sharing information to ensure consistency
 
 The master serves reads and writes, replicating writes to one or more slaves, which serve only reads. Slaves can also replicate additional slaves in a tree-like fashion. If the master goes offline, the system can continue to operate in read-only mode until a slave is promoted to a master or a new master is provisioned.
 
-![master-slave-replication](/assets/img/system-design/master-slave-replication.jpg)
+![master-slave-replication](https://scdn.netlify.app/img/system-design/master-slave-replication.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2016,7 +2016,7 @@ The master serves reads and writes, replicating writes to one or more slaves, wh
 
 Both masters serve reads/writes and coordinate with each other. If either master goes down, the system can continue to operate with both reads and writes.
 
-![master-master-replication](/assets/img/system-design/master-master-replication.jpg)
+![master-master-replication](https://scdn.netlify.app/img/system-design/master-master-replication.jpg)
 
 ### Advantages
 
@@ -2053,7 +2053,7 @@ In contrast, asynchronous replication copies the data to the replica after the d
 
 Indexes are well known when it comes to databases, they are used to improve the speed of data retrieval operations on the data store. An index makes the trade-offs of increased storage overhead, and slower writes (since we not only have to write the data but also have to update the index) for the benefit of faster reads. Indexes are used to quickly locate data without having to examine every row in a database table. Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access to ordered records.
 
-![indexes](/assets/img/system-design/indexes.jpg)
+![indexes](https://scdn.netlify.app/img/system-design/indexes.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2078,7 +2078,7 @@ One quality that database indexes can have is that they can be **dense** or **sp
 
 In a dense index, an index record is created for every row of the table. Records can be located directly as each record of the index holds the search key value and the pointer to the actual record.
 
-![dense-index](/assets/img/system-design/dense-index.jpg)
+![dense-index](https://scdn.netlify.app/img/system-design/dense-index.jpg)
 
 Dense indexes require more maintenance than sparse indexes at write-time. Since every row must have an entry, the database must maintain the index on inserts, updates, and deletes. Having an entry for every row also means that dense indexes will require more memory. The benefit of a dense index is that values can be quickly found with just a binary search. Dense indexes also do not impose any ordering requirements on the data.
 
@@ -2086,7 +2086,7 @@ Dense indexes require more maintenance than sparse indexes at write-time. Since 
 
 In a sparse index, records are created only for some of the records.
 
-![sparse-index](/assets/img/system-design/sparse-index.jpg)
+![sparse-index](https://scdn.netlify.app/img/system-design/sparse-index.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2554,7 +2554,7 @@ PACELC extends the CAP theorem by introducing latency (L) as an additional attri
 
 _The PACELC theorem was first described by [Daniel J. Abadi](https://scholar.google.com/citations?user=zxeEF2gAAAAJ)._
 
-![pacelc-theorem](/assets/img/system-design/pacelc-theorem.jpg)
+![pacelc-theorem](https://scdn.netlify.app/img/system-design/pacelc-theorem.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2598,7 +2598,7 @@ _Usually, relational databases support ACID transactions, and non-relational dat
 
 A transaction in a database can be in one of the following states:
 
-![transaction-states](/assets/img/system-design/transaction-states.jpg)
+![transaction-states](https://scdn.netlify.app/img/system-design/transaction-states.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2671,7 +2671,7 @@ Now, let's look at some popular solutions for distributed transactions:
 
 ## Two-Phase commit
 
-![two-phase-commit](/assets/img/system-design/two-phase-commit.jpg)
+![two-phase-commit](https://scdn.netlify.app/img/system-design/two-phase-commit.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2716,7 +2716,7 @@ Following problems may arise in the two-phase commit protocol:
 
 ## Three-phase commit
 
-![three-phase-commit](/assets/img/system-design/three-phase-commit.jpg)
+![three-phase-commit](https://scdn.netlify.app/img/system-design/three-phase-commit.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2773,7 +2773,7 @@ The pre-commit phase accomplishes the following:
 
 ## Sagas
 
-![sagas](/assets/img/system-design/sagas.jpg)
+![sagas](https://scdn.netlify.app/img/system-design/sagas.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2845,7 +2845,7 @@ In this tutorial, we will specifically focus on sharding.
 
 Sharding is a database architecture pattern related to _horizontal partitioning_, which is the practice of separating one table's rows into multiple different tables, known as _partitions_ or _shards_. Each partition has the same schema and columns, but also a subset of the shared data. Likewise, the data held in each is unique and independent of the data held in other partitions.
 
-![sharding](/assets/img/system-design/sharding.jpg)
+![sharding](https://scdn.netlify.app/img/system-design/sharding.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2935,7 +2935,7 @@ Let's first understand the problem we're trying to solve.
 
 In traditional hashing-based distribution methods, we use a hash function to hash our partition keys (i.e. request ID or IP). Then if we use the modulo against the total number of nodes (server or databases). This will give us the node where we want to route our request.
 
-![simple-hashing](/assets/img/system-design/simple-hashing.jpg)
+![simple-hashing](https://scdn.netlify.app/img/system-design/simple-hashing.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -2984,7 +2984,7 @@ Now that we understand the problem, let's discuss consistent hashing in detail.
 
 Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting the overall system.
 
-![consistent-hashing](/assets/img/system-design/consistent-hashing.jpg)
+![consistent-hashing](https://scdn.netlify.app/img/system-design/consistent-hashing.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -3047,7 +3047,7 @@ In order to ensure a more evenly distributed load, we can introduce the idea of 
 
 Instead of assigning a single position to a node, the hash range is divided into multiple smaller ranges, and each physical node is assigned several of these smaller ranges. Each of these subranges is considered a VNode. Hence, virtual nodes are basically existing physical nodes mapped multiple times across the hash ring to minimize changes to a node's assigned range.
 
-![virtual-nodes](/assets/img/system-design/virtual-nodes.jpg)
+![virtual-nodes](https://scdn.netlify.app/img/system-design/virtual-nodes.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -3125,7 +3125,7 @@ Federation (or functional partitioning) splits up databases by function. The fed
 
 All of the components in a federation are tied together by one or more federal schemas that express the commonality of data throughout the federation. These federated schemas are used to specify the information that can be shared by the federation components and to provide a common basis for communication among them.
 
-![database-federation](/assets/img/system-design/database-federation.jpg)
+![database-federation](https://scdn.netlify.app/img/system-design/database-federation.jpg)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
@@ -3202,7 +3202,7 @@ Below are some disadvantages of federated databases:
 
 N-tier architecture divides an application into logical layers and physical tiers. Layers are a way to separate responsibilities and manage dependencies. Each layer has a specific responsibility. A higher layer can use services in a lower layer, but not the other way around.
 
-![n-tier-architecture](/assets/img/system-design/n-tier-architecture.jpg)
+![n-tier-architecture](https://scdn.netlify.app/img/system-design/n-tier-architecture.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3268,7 +3268,7 @@ Below are some disadvantages of N-tier architecture:
 
 A message broker is a software that enables applications, systems, and services to communicate with each other and exchange information. The message broker does this by translating messages between formal messaging protocols. This allows interdependent services to _"talk"_ with one another directly, even if they were written in different languages or implemented on different platforms.
 
-![message-broker](/assets/img/system-design/message-broker.jpg)
+![message-broker](https://scdn.netlify.app/img/system-design/message-broker.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3321,7 +3321,7 @@ A message queue is a form of service-to-service communication that facilitates a
 
 Queues are used to effectively manage requests in large-scale distributed systems. In small systems with minimal processing loads and small databases, writes can be predictably fast. However, in more complex and large systems writes can take an almost non-deterministic amount of time.
 
-![message-queue](/assets/img/system-design/message-queue.jpg)
+![message-queue](https://scdn.netlify.app/img/system-design/message-queue.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3413,7 +3413,7 @@ Following are some widely used message queues:
 
 Similar to a message queue, publish-subscribe is also a form of service-to-service communication that facilitates asynchronous communication. In a pub/sub model, any message published to a topic is pushed immediately to all the subscribers of the topic.
 
-![publish-subscribe](/assets/img/system-design/publish-subscribe.jpg)
+![publish-subscribe](https://scdn.netlify.app/img/system-design/publish-subscribe.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3486,7 +3486,7 @@ Here are some technologies commonly used for publish-subscribe:
 
 An Enterprise Service Bus (ESB) is an architectural pattern whereby a centralized software component performs integrations between applications. It performs transformations of data models, handles connectivity, performs message routing, converts communication protocols, and potentially manages the composition of multiple requests. The ESB can make these integrations and transformations available as a service interface for reuse by new applications.
 
-![enterprise-service-bus](/assets/img/system-design/enterprise-service-bus.jpg)
+![enterprise-service-bus](https://scdn.netlify.app/img/system-design/enterprise-service-bus.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3547,7 +3547,7 @@ Below are some widely used Enterprise Service Bus (ESB) technologies:
 
 A monolith is a self-contained and independent application. It is built as a single unit and is responsible for not just a particular task, but can perform every step needed to satisfy a business need.
 
-![monolith](/assets/img/system-design/monolith.jpg)
+![monolith](https://scdn.netlify.app/img/system-design/monolith.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3592,7 +3592,7 @@ This approach reduces the dependencies of a module in such as way that we can en
 
 A microservices architecture consists of a collection of small, autonomous services where each service is self-contained and should implement a single business capability within a bounded context. A bounded context is a natural division of business logic that provides an explicit boundary within which a domain model exists.
 
-![microservices](/assets/img/system-design/microservices.jpg)
+![microservices](https://scdn.netlify.app/img/system-design/microservices.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3692,7 +3692,7 @@ Service-oriented architecture (SOA) defines a way to make software components re
 
 ## Why you don't need microservices
 
-![architecture-range](/assets/img/system-design/architecture-range.jpg)
+![architecture-range](https://scdn.netlify.app/img/system-design/architecture-range.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3741,7 +3741,7 @@ Event-driven architectures have three key components:
 - **Event routers**: Filters and pushes the events to consumers.
 - **Event consumers**: Uses events to reflect changes in the system.
 
-![event-driven-architecture](/assets/img/system-design/event-driven-architecture.jpg)
+![event-driven-architecture](https://scdn.netlify.app/img/system-design/event-driven-architecture.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3823,7 +3823,7 @@ Here are some widely used technologies for implementing event-driven architectur
 
 Instead of storing just the current state of the data in a domain, use an append-only store to record the full series of actions taken on that data. The store acts as the system of record and can be used to materialize the domain objects.
 
-![event-sourcing](/assets/img/system-design/event-sourcing.jpg)
+![event-sourcing](https://scdn.netlify.app/img/system-design/event-sourcing.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3869,7 +3869,7 @@ Command Query Responsibility Segregation (CQRS) is an architectural pattern that
 
 In CQRS, a _command_ is an instruction, a directive to perform a specific task. It is an intention to change something and doesn't return a value, only an indication of success or failure. And, a _query_ is a request for information that doesn't change the system's state or cause any side effects.
 
-![command-and-query-responsibility-segregation](/assets/img/system-design/command-and-query-responsibility-segregation.jpg)
+![command-and-query-responsibility-segregation](https://scdn.netlify.app/img/system-design/command-and-query-responsibility-segregation.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3924,7 +3924,7 @@ Here are some scenarios where CQRS will be helpful:
 
 The API Gateway is an API management tool that sits between a client and a collection of backend services. It is a single entry point into a system that encapsulates the internal system architecture and provides an API that is tailored to each client. It also has other responsibilities such as authentication, monitoring, load balancing, caching, throttling, logging, etc.
 
-![api-gateway](/assets/img/system-design/api-gateway.jpg)
+![api-gateway](https://scdn.netlify.app/img/system-design/api-gateway.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -3998,7 +3998,7 @@ In the Backend For Frontend (BFF) pattern, we create separate backend services t
 
 Also, sometimes the output of data returned by the microservices to the front end is not in the exact format or filtered as needed by the front end. To solve this issue, the frontend should have some logic to reformat the data, and therefore, we can use BFF to shift some of this logic to the intermediate layer.
 
-![backend-for-frontend](/assets/img/system-design/backend-for-frontend.jpg)
+![backend-for-frontend](https://scdn.netlify.app/img/system-design/backend-for-frontend.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4354,7 +4354,7 @@ HTTP Long polling is a technique used to push information to a client as soon as
 
 In Long polling, the server does not close the connection once it receives a request from the client. Instead, the server responds only if any new message is available or a timeout threshold is reached.
 
-![long-polling](/assets/img/system-design/long-polling.jpg)
+![long-polling](https://scdn.netlify.app/img/system-design/long-polling.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4401,7 +4401,7 @@ WebSocket provides full-duplex communication channels over a single TCP connecti
 
 The client establishes a WebSocket connection through a process known as the WebSocket handshake. If the process succeeds, then the server and client can exchange data in both directions at any time. The WebSocket protocol enables the communication between a client and a server with lower overheads, facilitating real-time data transfer from and to the server.
 
-![websockets](/assets/img/system-design/websockets.jpg)
+![websockets](https://scdn.netlify.app/img/system-design/websockets.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4461,7 +4461,7 @@ Let's discuss some disadvantages of WebSockets:
 
 Server-Sent Events (SSE) is a way of establishing long-term communication between client and server that enables the server to proactively push data to the client.
 
-![server-sent-events](/assets/img/system-design/server-sent-events.jpg)
+![server-sent-events](https://scdn.netlify.app/img/system-design/server-sent-events.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4510,7 +4510,7 @@ For example, San Francisco with coordinates `37.7564, -122.4016` can be represen
 
 Geohash is a hierarchical spatial index that uses Base-32 alphabet encoding, the first character in a geohash identifies the initial location as one of the 32 cells. This cell will also contain 32 cells. This means that to represent a point, the world is recursively divided into smaller and smaller cells with each additional bit until the desired precision is attained. The precision factor also determines the size of the cell.
 
-![geohashing](/assets/img/system-design/geohashing.jpg)
+![geohashing](https://scdn.netlify.app/img/system-design/geohashing.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4567,7 +4567,7 @@ Geohashing is widely used and it is supported by popular databases.
 
 A quadtree is a tree data structure in which each internal node has exactly four children. They are often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions. Each child or leaf node stores spatial information. Quadtrees are the two-dimensional analog of [Octrees](https://en.wikipedia.org/wiki/Octree) which are used to partition three-dimensional space.
 
-![quadtree](/assets/img/system-design/quadtree.jpg)
+![quadtree](https://scdn.netlify.app/img/system-design/quadtree.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4609,7 +4609,7 @@ Quadtrees may be classified according to the type of data they represent, includ
 
 Aren't latitude and longitude enough? Why do we need quadtrees? While in theory using latitude and longitude we can determine things such as how close points are to each other using [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance), for practical use cases it is simply not scalable because of its CPU-intensive nature with large data sets.
 
-![quadtree-subdivision](/assets/img/system-design/quadtree-subdivision.jpg)
+![quadtree-subdivision](https://scdn.netlify.app/img/system-design/quadtree-subdivision.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4640,7 +4640,7 @@ Below are some common uses of quadtrees:
 
 The circuit breaker is a design pattern used to detect failures and encapsulates the logic of preventing a failure from constantly recurring during maintenance, temporary external system failure, or unexpected system difficulties.
 
-![circuit-breaker](/assets/img/system-design/circuit-breaker.jpg)
+![circuit-breaker](https://scdn.netlify.app/img/system-design/circuit-breaker.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4681,7 +4681,7 @@ In this state, the circuit breaker allows a limited number of requests from the 
 
 Rate limiting refers to preventing the frequency of an operation from exceeding a defined limit. In large-scale systems, rate limiting is commonly used to protect underlying services and resources. Rate limiting is generally used as a defensive mechanism in distributed systems, so that shared resources can maintain availability. It also protects our APIs from unintended or malicious overuse by limiting the number of requests that can reach our API in a given period of time.
 
-![rate-limiting](/assets/img/system-design/rate-limiting.jpg)
+![rate-limiting](https://scdn.netlify.app/img/system-design/rate-limiting.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4770,7 +4770,7 @@ There are two main service discovery patterns:
 
 ### Client-side discovery
 
-![client-side-service-discovery](/assets/img/system-design/client-side-service-discovery.jpg)
+![client-side-service-discovery](https://scdn.netlify.app/img/system-design/client-side-service-discovery.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4789,7 +4789,7 @@ In this approach, the client obtains the location of another service by querying
 
 ### Server-side discovery
 
-![server-side-service-discovery](/assets/img/system-design/server-side-service-discovery.jpg)
+![server-side-service-discovery](https://scdn.netlify.app/img/system-design/server-side-service-discovery.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4878,7 +4878,7 @@ Disaster recovery can have the following benefits:
 
 Let's discuss some important terms relevantly for disaster recovery:
 
-![disaster-recovery](/assets/img/system-design/disaster-recovery.jpg)
+![disaster-recovery](https://scdn.netlify.app/img/system-design/disaster-recovery.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -4981,7 +4981,7 @@ Containers are lightweight and allow us to use just the computing resources we n
 
 ## Virtualization vs Containerization
 
-![virtualization-vs-containerization](/assets/img/system-design/virtualization-vs-containerization.jpg)
+![virtualization-vs-containerization](https://scdn.netlify.app/img/system-design/virtualization-vs-containerization.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5021,7 +5021,7 @@ The OAuth 2.0 protocol defines the following entities:
 
 Let's learn how OAuth 2.0 works:
 
-![oauth2](/assets/img/system-design/oauth2.jpg)
+![oauth2](https://scdn.netlify.app/img/system-design/oauth2.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5113,7 +5113,7 @@ SAML specifically enables identity federation, making it possible for identity p
 
 Now, let's discuss how Single Sign-On works:
 
-![sso](/assets/img/system-design/sso.jpg)
+![sso](https://scdn.netlify.app/img/system-design/sso.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5459,7 +5459,7 @@ Here is our high-level estimate:
 
 Next, we will focus on the data model design. Here is our database schema:
 
-![url-shortener-datamodel](/assets/img/system-design/url-shortener-datamodel.jpg)
+![url-shortener-datamodel](https://scdn.netlify.app/img/system-design/url-shortener-datamodel.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5659,7 +5659,7 @@ _For more details, refer to [caching](https://karanpratapsingh.com/courses/syste
 
 Now that we have identified some core components, let's do the first draft of our system design.
 
-![url-shortener-basic-design](/assets/img/system-design/url-shortener-basic-design.jpg)
+![url-shortener-basic-design](https://scdn.netlify.app/img/system-design/url-shortener-basic-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5744,7 +5744,7 @@ We can also use an [API Gateway](https://karanpratapsingh.com/courses/system-des
 
 ## Identify and resolve bottlenecks
 
-![url-shortener-advanced-design](/assets/img/system-design/url-shortener-advanced-design.jpg)
+![url-shortener-advanced-design](https://scdn.netlify.app/img/system-design/url-shortener-advanced-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -5886,7 +5886,7 @@ Here is our high-level estimate:
 
 This is the general data model which reflects our requirements.
 
-![whatsapp-datamodel](/assets/img/system-design/whatsapp-datamodel.jpg)
+![whatsapp-datamodel](https://scdn.netlify.app/img/system-design/whatsapp-datamodel.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6108,7 +6108,7 @@ Handling read receipts can be tricky, for this use case we can wait for some sor
 
 Now that we have identified some core components, let's do the first draft of our system design.
 
-![whatsapp-basic-design](/assets/img/system-design/whatsapp-basic-design.jpg)
+![whatsapp-basic-design](https://scdn.netlify.app/img/system-design/whatsapp-basic-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6182,7 +6182,7 @@ We can use services like [Amazon API Gateway](https://aws.amazon.com/api-gateway
 
 ## Identify and resolve bottlenecks
 
-![whatsapp-advanced-design](/assets/img/system-design/whatsapp-advanced-design.jpg)
+![whatsapp-advanced-design](https://scdn.netlify.app/img/system-design/whatsapp-advanced-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6321,7 +6321,7 @@ Here is our high-level estimate:
 
 This is the general data model which reflects our requirements.
 
-![twitter-datamodel](/assets/img/system-design/twitter-datamodel.jpg)
+![twitter-datamodel](https://scdn.netlify.app/img/system-design/twitter-datamodel.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6494,7 +6494,7 @@ Publishing is the step where the feed data is pushed according to each specific 
 
 - Pull Model (or Fan-out on load)
 
-![newsfeed-pull-model](/assets/img/system-design/newsfeed-pull-model.jpg)
+![newsfeed-pull-model](https://scdn.netlify.app/img/system-design/newsfeed-pull-model.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6515,7 +6515,7 @@ The downside of this approach is that the users will not be able to view recent 
 
 - Push Model (or Fan-out on write)
 
-![newsfeed-push-model](/assets/img/system-design/newsfeed-push-model.jpg)
+![newsfeed-push-model](https://scdn.netlify.app/img/system-design/newsfeed-push-model.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6676,7 +6676,7 @@ But where can we store files at scale? Well, [object storage](https://karanprata
 
 ## Identify and resolve bottlenecks
 
-![twitter-advanced-design](/assets/img/system-design/twitter-advanced-design.jpg)
+![twitter-advanced-design](https://scdn.netlify.app/img/system-design/twitter-advanced-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -6826,7 +6826,7 @@ Here is our high-level estimate:
 
 This is the general data model which reflects our requirements.
 
-![netflix-datamodel](/assets/img/system-design/netflix-datamodel.jpg)
+![netflix-datamodel](https://scdn.netlify.app/img/system-design/netflix-datamodel.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7005,7 +7005,7 @@ There are so many variables in play when it comes to processing a video. For exa
 
 Here's how we can process videos once they're uploaded by the content team (or users in YouTube's case) and are queued for processing in our [message queue](https://karanpratapsingh.com/courses/system-design/message-queues).
 
-![video-processing-pipeline](/assets/img/system-design/video-processing-pipeline.jpg)
+![video-processing-pipeline](https://scdn.netlify.app/img/system-design/video-processing-pipeline.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7028,7 +7028,7 @@ This is the first step of our processing pipeline. File chunking is the process 
 
 Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes, this slight variation becomes a huge factor for a better user experience as whenever the client requests a chunk from the server, there is a lower chance of interruption as a complete scene will be retrieved.
 
-![file-chunking](/assets/img/system-design/file-chunking.jpg)
+![file-chunking](https://scdn.netlify.app/img/system-design/file-chunking.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7176,7 +7176,7 @@ We will use distributed file storage such as [HDFS](https://karanpratapsingh.com
 
 ## Identify and resolve bottlenecks
 
-![netflix-advanced-design](/assets/img/system-design/netflix-advanced-design.jpg)
+![netflix-advanced-design](https://scdn.netlify.app/img/system-design/netflix-advanced-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7317,7 +7317,7 @@ Here is our high-level estimate:
 
 This is the general data model which reflects our requirements.
 
-![uber-datamodel](/assets/img/system-design/uber-datamodel.jpg)
+![uber-datamodel](https://scdn.netlify.app/img/system-design/uber-datamodel.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7524,7 +7524,7 @@ _Note: Learn more about [REST, GraphQL, gRPC](https://karanpratapsingh.com/cours
 
 Here's how our service is expected to work:
 
-![uber-working](/assets/img/system-design/uber-working.jpg)
+![uber-working](https://scdn.netlify.app/img/system-design/uber-working.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7585,7 +7585,7 @@ Geohashing is a [geocoding](https://en.wikipedia.org/wiki/Address_geocoding) met
 
 Geohash is a hierarchical spatial index that uses Base-32 alphabet encoding, the first character in a geohash identifies the initial location as one of the 32 cells. This cell will also contain 32 cells. This means that to represent a point, the world is recursively divided into smaller and smaller cells with each additional bit until the desired precision is attained. The precision factor also determines the size of the cell.
 
-![geohashing](/assets/img/system-design/geohashing.jpg)
+![geohashing](https://scdn.netlify.app/img/system-design/geohashing.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7608,7 +7608,7 @@ Now, using the customer's geohash we can determine the nearest available driver 
 
 A Quadtree is a tree data structure in which each internal node has exactly four children. They are often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions. Each child or leaf node stores spatial information. Quadtrees are the two-dimensional analog of [Octrees](https://en.wikipedia.org/wiki/Octree) which are used to partition three-dimensional space.
 
-![quadtree](/assets/img/system-design/quadtree.jpg)
+![quadtree](https://scdn.netlify.app/img/system-design/quadtree.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7627,7 +7627,7 @@ Quadtrees enable us to search points within a two-dimensional range efficiently,
 
 We can save further computation by only subdividing a node after a certain threshold.
 
-![quadtree-subdivision](/assets/img/system-design/quadtree-subdivision.jpg)
+![quadtree-subdivision](https://scdn.netlify.app/img/system-design/quadtree-subdivision.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>
@@ -7700,7 +7700,7 @@ _For more details, refer to [Caching](https://karanpratapsingh.com/courses/syste
 
 ## Identify and resolve bottlenecks
 
-![uber-advanced-design](/assets/img/system-design/uber-advanced-design.jpg)
+![uber-advanced-design](https://scdn.netlify.app/img/system-design/uber-advanced-design.jpg)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
      crossorigin="anonymous"></script>

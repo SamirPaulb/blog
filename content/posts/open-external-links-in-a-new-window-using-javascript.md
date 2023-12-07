@@ -6,12 +6,12 @@ description: "Open External Links in a New Window Using Javascript"
 tags: [blog, coding, computer-science, external-links-in-a-new-tab, jekyll, hugo, external-links-in-a-new-tab-jekyll, external-links-in-a-new-tab-hugo, javascript, external-links-in-a-new-tab-using-javascript, target-blank, jekyll-target-blank, jekyll-target-blank-using-javascript, open-external-links, open-external-links-javascript]
 
 cover:
-  image: "/assets/img/open-external-links-in-a-new-window-using-javascript.webp"
+  image: "https://scdn.netlify.app/img/open-external-links-in-a-new-window-using-javascript.webp"
   alt: "Open External Links in a New Window Using Javascript"
   caption: "Open External Links in a New Window Using Javascript"
 
 images:
-  - /assets/img/open-external-links-in-a-new-window-using-javascript.webp
+  - https://scdn.netlify.app/img/open-external-links-in-a-new-window-using-javascript.webp
 
 # videos:
 #   - filename01.mov

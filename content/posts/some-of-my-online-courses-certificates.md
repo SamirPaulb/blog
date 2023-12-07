@@ -5,12 +5,12 @@ date: 2022-12-12T14:24:31+05:30
 description: "Some of My Online Courses Certificates"
 tags: [Certificates, Courses]
 cover:
-  image: "https://samirpaulb.github.io/assets/blog-featured-image-samirpaul-in-blog.webp"
+  image: "https://scdn.netlify.app/blog-featured-image-samirpaul-in-blog.webp"
   alt: "Some of My Online Courses Certificates"
   caption: "Some of My Online Courses Certificates"
 
 images:
-  - https://samirpaulb.github.io/assets/blog-featured-image-samirpaul-in-blog.webp
+  - https://scdn.netlify.app/blog-featured-image-samirpaul-in-blog.webp
 
 # videos:
 #   - filename01.mov

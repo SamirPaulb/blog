@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Curated List of Project Based Tutorials"
 tags: [blog, coding, computer-science,projects,tutorials,list-of-project-based-tutorials]
 cover:
-  image: "/assets/img/curated-list-of-project-based-tutorials-images.webp"
+  image: "https://scdn.netlify.app/img/curated-list-of-project-based-tutorials-images.webp"
   alt: "Curated List of Project Based Tutorials"
   caption: "Curated List of Project Based Tutorials"
 
 images:
-  - /assets/img/curated-list-of-project-based-tutorials-images.webp
+  - https://scdn.netlify.app/img/curated-list-of-project-based-tutorials-images.webp
 
 # videos:
 #   - filename01.mov

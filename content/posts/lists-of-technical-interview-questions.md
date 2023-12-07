@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Lists of Technical Interview Questions"
 tags: [blog, coding, computer-science,android,angularjs,angular,backbonejs,cpp,c,dotnet,clojure,css,django,elastic,emberjs,erlang,golang,graphql,html,ionic,ios,java,javascript,jquery,front-end,knockoutjs,less,lisp,nodejs,objective-c,php,python,reactjs,rails,ruby,rust,sass,scala,shell,spark,swift,vuejs,wordpress,typescript]
 cover:
-  image: "/assets/img/list-of-interview-questions-blog-images.webp"
+  image: "https://scdn.netlify.app/img/list-of-interview-questions-blog-images.webp"
   alt: "Lists of Technical Interview Questions"
   caption: "Lists of Technical Interview Questions"
 
 images:
-  - /assets/img/list-of-interview-questions-blog-images.webp
+  - https://scdn.netlify.app/img/list-of-interview-questions-blog-images.webp
 
 # videos:
 #   - filename01.mov

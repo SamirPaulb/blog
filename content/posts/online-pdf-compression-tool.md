@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Online PDF Compression Tool"
 tags: [blog, coding, computer-science, javascript, css, python, c, shell, html, pdf, flask, nix, server, repl, python3, file-compressor, flask-application, python-server, pdfnet, pdf-compression, reple, online-pdf-compressor, pdfnetpython]
 cover:
-  image: "https://samirpaulb.github.io/assets/blog/online-pdf-compression-tool-blog-banner.webp"
+  image: "https://scdn.netlify.app/blog/online-pdf-compression-tool-blog-banner.webp"
   alt: "Online PDF Compression Tool"
   caption: "Online PDF Compression Tool"
 
 images:
-  - https://samirpaulb.github.io/assets/blog/online-pdf-compression-tool-blog-banner.webp
+  - https://scdn.netlify.app/blog/online-pdf-compression-tool-blog-banner.webp
 
 # videos:
 #   - filename01.mov
@@ -65,7 +65,7 @@ In the backend, using the ```PDFNetPython``` library that file gets reduced and 
 
 
 - Landing Page:
-![Landing Page](/assets/img/filecompressor-samirpaul1-repl-co-landing-page.webp)
+![Landing Page](https://scdn.netlify.app/img/filecompressor-samirpaul1-repl-co-landing-page.webp)
 
 
 ### Flask File Uploading:

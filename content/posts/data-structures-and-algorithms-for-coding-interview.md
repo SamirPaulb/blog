@@ -107,7 +107,7 @@ In various folders of the above topics, you can find questions and concepts rela
 - There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
 
-![DSAlgo repo](/assets/img/repository-image-dsalgo-samirpaul1-leetcode-post.jpeg "DSAlgo repository")
+![DSAlgo repo](https://scdn.netlify.app/img/repository-image-dsalgo-samirpaul1-leetcode-post.jpeg "DSAlgo repository")
 
 ---
 
@@ -117,7 +117,7 @@ In various folders of the above topics, you can find questions and concepts rela
 </p>
 
 
-![DSA Online VSCode](/assets/img/samirpaul.in-DSAlgo-demo.png "DSA Online VSCode")
+![DSA Online VSCode](https://scdn.netlify.app/img/samirpaul.in-DSAlgo-demo.png "DSA Online VSCode")
 
 ---
 

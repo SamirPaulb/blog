@@ -11,7 +11,7 @@ license: "CC BY 4.0"
 draft: false
 ---
 
-![system development life cycle](/assets/img/system-design/systemcycle.png)
+![system development life cycle](https://scdn.netlify.app/img/system-design/systemcycle.png)
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"

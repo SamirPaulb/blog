@@ -2,7 +2,7 @@
 layout: compress
 ---
 
-{% assign favicon_path = "/assets/img/favicons" | relative_url %}
+{% assign favicon_path = "https://scdn.netlify.app/img/favicons" | relative_url %}
 
 {
   "name": "{{ site.title }}",

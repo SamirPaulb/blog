@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "List of Python Frameworks Libraries Software and Resources"
 tags: [blog, coding, computer-science,python,python-frameworks,python-libraries,python-softwares,python-resources]
 cover:
-  image: "/assets/img/list-of-python-frameworks-libraries-software-and-resources-banner-image.jpg"
+  image: "https://scdn.netlify.app/img/list-of-python-frameworks-libraries-software-and-resources-banner-image.jpg"
   alt: "List of Python Frameworks Libraries Software and Resources"
   caption: "List of Python Frameworks Libraries Software and Resources"
 
 images:
-  - /assets/img/list-of-python-frameworks-libraries-software-and-resources-banner-image.jpg
+  - https://scdn.netlify.app/img/list-of-python-frameworks-libraries-software-and-resources-banner-image.jpg
 
 # videos:
 #   - filename01.mov
