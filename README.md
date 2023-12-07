@@ -4,7 +4,7 @@ Live Demo: \
 👉 **https://samirpaulb.github.io/blog** 
 
 
-Created using [Hugo](https://gohugo.io/getting-started/installing/) and [PaperMod](https://github.com/SamirPaulb/hugo-PaperMod).
+Created using [Hugo](https://gohugo.io/getting-started/installing/) and [PaperMod](https://github.com/SamirPaul1/hugo-PaperMod).
 
 Steps:
 1. Install Hugo ```choco install hugo-extended -confirm```.
@@ -12,7 +12,7 @@ Steps:
 3. Run ```hugo``` to build static codes inside public directory for deploying on Netlify/Vercel.
 4. Run ```hugo server``` to preview the site. 
 5. Use GitHub Actions to deploy on GitHub Pages.
-6. Update theme: Change [SamirPaulb/hugo-PaperMod](https://github.com/SamirPaulb/hugo-PaperMod) -> delete ```themes/PaperMod``` directory -> run ```git clone https://github.com/SamirPaulb/hugo-PaperMod themes/PaperMod --depth=1```
+6. Update theme: Change [SamirPaul1/hugo-PaperMod](https://github.com/SamirPaul1/hugo-PaperMod) -> delete ```themes/PaperMod``` directory -> run ```git clone https://github.com/SamirPaul1/hugo-PaperMod themes/PaperMod --depth=1```
 
 ---
 ### TODO:
@@ -33,7 +33,7 @@ https://github.com/adityatelange/hugo-PaperMod/compare/master...SamirPaulb:hugo-
 ---
 
 More instructions:
-1. https://github.com/SamirPaulb/hugo-PaperMod
+1. https://github.com/SamirPaul1/hugo-PaperMod
 2. [Theme Basic Documentation](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/)
 3. [Theme Content Documentation](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/)
 4. For local development first install [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#install-from-powershell-v3) as administrator then install hugo ```choco install hugo-extended -confirm```.
