@@ -1,0 +1,9 @@
+google.com, pub-8274401353019049, DIRECT, f08c47fec0942fa0
+# SOVRN
+lijit.com, 445888, DIRECT, fafdf38b16bf6b2b #SOVRN
+lijit.com, 445888-eb, DIRECT, fafdf38b16bf6b2b #SOVRN
+openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
+appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
