@@ -48,7 +48,7 @@ In the backend, using the ```PDFNetPython``` library that file gets reduced and 
 <iframe title="Video Demo" src="https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-810e-780e47a391f9.mp4" loading="lazy" width="100%" height = "380" autoplay="autoplay" loop="loop" frameborder="0" allowfullscreen></iframe>
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 ```
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -157,7 +157,7 @@ function downloadFile(filename) {
 ```
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -178,7 +178,7 @@ function downloadFile(filename) {
 - [x] Commit your changes: `git commit -m "feat: my new feature"`;
 - [x] Push to your branch: `git push origin my-feature`.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

@@ -14,7 +14,7 @@ draft: false
 
 **SQL Join** statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are as follows: 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -34,7 +34,7 @@ draft: false
 - FULL JOIN
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -50,7 +50,7 @@ draft: false
 
 ![SQL Joins](https://user-images.githubusercontent.com/77569653/227738791-78897c64-4c15-4d6a-b75a-656c6a59a5d2.png)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

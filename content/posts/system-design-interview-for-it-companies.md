@@ -14,7 +14,7 @@ draft: false
 ![system development life cycle](https://scdn.netlify.app/img/system-design/systemcycle.png)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -33,7 +33,7 @@ draft: false
 Original source and Credit: https://github.com/checkcheckzz/system-design-interview
 
 ---
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -229,7 +229,7 @@ Reference:
 * [Efficient Computation of Frequent and Top-k Elements in Data Streams](http://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf)
 * [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -285,7 +285,7 @@ Reference:
 Reference:  
 * [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -346,7 +346,7 @@ Use design patterns such that it can be reused in multiple applications.
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

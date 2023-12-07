@@ -12,7 +12,7 @@ draft: false
 ---
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -66,7 +66,7 @@ nums.sort() # sorts list [does NOT return sorted list]
 #Python's default sort uses Tim Sort, which is a combination of both merge sort and insertion sort.
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -117,7 +117,7 @@ Slice objects also behave slightly differently depending on the number of argume
 While the :-based notation is very helpful for simple slicing, the explicit use of slice() objects simplifies the programmatic generation of slicing.
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -249,7 +249,7 @@ heapq.nlargest(k, iterable, key = fun)
 heapq.nsmallest(k, iterable, key = fun)
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -430,7 +430,7 @@ string.isupper()
     ```
     
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -686,7 +686,7 @@ string.isupper()
 
 ### Cheat Sheet PDF
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

@@ -11,7 +11,7 @@ license: "CC BY 4.0"
 draft: false
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -76,7 +76,7 @@ draft: false
 [https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)  
 [https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -405,7 +405,7 @@ public:
 };
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -480,7 +480,7 @@ Depth First Search +DP:
 [https://leetcode.com/problems/out-of-boundary-paths/](https://leetcode.com/problems/out-of-boundary-paths/)  
 [https://leetcode.com/problems/knight-probability-in-chessboard/](https://leetcode.com/problems/knight-probability-in-chessboard/)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -561,7 +561,7 @@ public:
 [https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

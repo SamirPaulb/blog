@@ -11,7 +11,7 @@ license: "CC BY 4.0"
 draft: false
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -45,7 +45,7 @@ Depending on where you are interviewing, go through the company blog. VERY USEFU
 * [Google Research Blog](http://googleresearch.blogspot.com/)
 * [Groupn Engineering Blog](https://engineering.groupon.com/)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
@@ -78,7 +78,7 @@ Depending on where you are interviewing, go through the company blog. VERY USEFU
 * [Yelp Engineering Blog](http://engineeringblog.yelp.com/)
 * [Smarkets Blog](https://smarketshq.com/)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

@@ -67,7 +67,7 @@ Most of the constraints are due to the fact that operations across multiple tabl
   - Create more db shards or rebalance existing shards changes partitioning scheme and requires data movement.
 
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"

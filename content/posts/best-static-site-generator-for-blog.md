@@ -24,7 +24,7 @@ Hexo: This is a fast and simple static site generator that is well-suited for bl
 
 Pelican: This is a static site generator that is well-suited for creating and managing blogs and other types of websites. It is built in Python and provides a simple and flexible way to create and manage content.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" loading="lazy"
      crossorigin="anonymous"></script>
 <!-- Display ads -->
 <ins class="adsbygoogle"
