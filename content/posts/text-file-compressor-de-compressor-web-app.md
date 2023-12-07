@@ -25,7 +25,7 @@ license: "CC BY 4.0"
 draft: false
 
 # editPost:
-#   URL: "https://github.com/SamirPaul1/blog"
+#   URL: "https://github.com/SamirPaulb/blog"
 #   Text: "Suggest Changes" # edit text
 #   appendFilePath: true # to append file path to Edit link
 
@@ -35,8 +35,8 @@ draft: false
 
 - This webapp uses Huffman Coding for Text Compression and De-compression.
 - Made with ```JavaScript```, ```HTML5``` and ```CSS3```.
-- Live Demo: [**samirpaul1.github.io/txt-compressor**](https://samirpaul1.github.io/txt-compressor/)
-- Repository: [github.com/SamirPaul1/txt-compressor](https://github.com/SamirPaul1/txt-compressor)
+- Live Demo: [**samirpaulb.github.io/txt-compressor**](https://samirpaulb.github.io/txt-compressor/)
+- Repository: [github.com/SamirPaulb/txt-compressor](https://github.com/SamirPaulb/txt-compressor)
 
 
 ## About this application:
@@ -49,7 +49,7 @@ draft: false
 * With the decoding feature, the user can decode the encoded file and get back the original file of the previous size. 
 * I have used JavaScript to implement the algorithms so that browser can compile the code and HTML, CSS to make the website responsive. 
 * Additional instructions and warnings are provided if steps are not followed correctly. 
-* An [Info page](https://samirpaul1.github.io/txt-compressor/info.html) is added to give more information about tecnique of **Lossless Data Compression** with Huffman coding.
+* An [Info page](https://samirpaulb.github.io/txt-compressor/info.html) is added to give more information about tecnique of **Lossless Data Compression** with Huffman coding.
 
 
 

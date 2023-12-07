@@ -86,7 +86,7 @@ _Memory Management:_
 * user-level => applications [underprivileged mode]
 * kernel-level => OS Kernel [privileged access, hardware access]
 
-![userkernelprotectionboundary](https://scdn.web.app/blog/os/userkernelprotectionboundary.png)
+![userkernelprotectionboundary](https://scdn.netlify.app/blog/os/userkernelprotectionboundary.png)
 
 - User-Kernel switch is supported by hardware.
 	- using trap instructions
@@ -98,7 +98,7 @@ _Memory Management:_
     
 ## System call Flowcart
 
-![systemcallflowchart](https://scdn.web.app/blog/os/systemcallflowchart.png)
+![systemcallflowchart](https://scdn.netlify.app/blog/os/systemcallflowchart.png)
     
 - To make a system call, an application must:
 	- write arguments
@@ -128,7 +128,7 @@ Protection | chmod(); umask(); chown();
 
 ## Linux Architecture 
 
-![linuxarchitecture](https://scdn.web.app/blog/os/linuxarch.png)
+![linuxarchitecture](https://scdn.netlify.app/blog/os/linuxarch.png)
 
 <hr>
 
@@ -148,7 +148,7 @@ Process is a state of a program when executing and loaded in memory (active stat
 
 ## What does a process look like?
 
-![Process](https://scdn.web.app/blog/os/process.png)
+![Process](https://scdn.netlify.app/blog/os/process.png)
 
 ### Type of state
 
@@ -170,7 +170,7 @@ Using:
 
 ## Process Control Block (PCB)
 
-![PCB](https://scdn.web.app/blog/os/pcb.png)
+![PCB](https://scdn.netlify.app/blog/os/pcb.png)
 
 * PCB created when process is created
 * Certain fields are updated when process state change e.g. memory mapping
@@ -178,7 +178,7 @@ Using:
 
 ## How is PCB used ?
 
-![howpcbisused](https://scdn.web.app/blog/os/howpcbisused.png)
+![howpcbisused](https://scdn.netlify.app/blog/os/howpcbisused.png)
 
 ## Context Switch
 
@@ -195,7 +195,7 @@ Sometimes there are situations where we have to Context Switch (higher priority 
 
 ## Process Lifecycle
 
-![processlifecycle](https://scdn.web.app/blog/os/processlifecycle.png)
+![processlifecycle](https://scdn.netlify.app/blog/os/processlifecycle.png)
 
 CPU is able to execute a process when the process is in Running or Ready state.
 
@@ -223,7 +223,7 @@ OS must :
 
 ## Scheduling design decisions
 
-![timeslice](https://scdn.web.app/blog/os/timeslice.png)
+![timeslice](https://scdn.netlify.app/blog/os/timeslice.png)
 
 * What are the appropriate timeslice values?
 * Metrics to choose next process to run?
@@ -232,7 +232,7 @@ OS must :
 
 A process can make way in the ready queue in a number of ways.
 
-![io](https://scdn.web.app/blog/os/io.png)
+![io](https://scdn.netlify.app/blog/os/io.png)
 
 ## Can process interact?
 
@@ -248,7 +248,7 @@ Two types of IPC models:
 
 ####  1. **Message Passing IPC**
 
-![messagepassing](https://scdn.web.app/blog/os/messagepassing.png)
+![messagepassing](https://scdn.netlify.app/blog/os/messagepassing.png)
 
 * OS provides communication channel line shared buffer
 * Processes can write(send), read(receive) msg to/from channel
@@ -258,7 +258,7 @@ Two types of IPC models:
     
 #### 2. **Shared Memory IPC**
 
-![sharedmemory](https://scdn.web.app/blog/os/sharedmemory.png)
+![sharedmemory](https://scdn.netlify.app/blog/os/sharedmemory.png)
 
 * OS establishes a shared channel and maps it into each processes' address space
 * Processes directly write(send), read(receive) msg to/from this memory
@@ -284,7 +284,7 @@ Overall, **shared memory** based communication is better if mapping memory betwe
     
 ## Process vs Thread 
 
-![processvthread](https://scdn.web.app/blog/os/processvthread.png)
+![processvthread](https://scdn.netlify.app/blog/os/processvthread.png)
 
 ## Why are threads useful?
 
@@ -359,7 +359,7 @@ lock(mutex){
 }
 unlock(mutex)
 ```
-![mutex](https://scdn.web.app/blog/os/mutex.png)
+![mutex](https://scdn.netlify.app/blog/os/mutex.png)
 
 ## Producer Consumer problem
 
@@ -379,7 +379,7 @@ Solution: Use **Condition Variables**
 - Broadcast(condition)    
 	- Notify all waiting threads
     
-![producerconsumer](https://scdn.web.app/blog/os/producerconsumer.png)    
+![producerconsumer](https://scdn.netlify.app/blog/os/producerconsumer.png)    
 
 ## Readers / Writer problem
 
@@ -429,7 +429,7 @@ When we wake up threads knowing they may not be able to proceed.
 
 Two or more competing threads are said to be in a deadlock if they are waiting on each other to complete, but none of them ever do.
 
-![deadlock](https://scdn.web.app/blog/os/deadlock.png)
+![deadlock](https://scdn.netlify.app/blog/os/deadlock.png)
 
 Here T1 and T2 are in deadlock.
 
@@ -454,13 +454,13 @@ Pre-check for cycles and then delay process or change code
 
 ## Kernel vs User level Threads
 
-![kernelvuserthread](https://scdn.web.app/blog/os/kernelvuserthread.png)
+![kernelvuserthread](https://scdn.netlify.app/blog/os/kernelvuserthread.png)
 
 Three types of models:
 
 #### 1. **One to One model**:
 
-![onetoone](https://scdn.web.app/blog/os/onetoone.png)
+![onetoone](https://scdn.netlify.app/blog/os/onetoone.png)
 
 **Advantages**: 
 
@@ -476,7 +476,7 @@ Three types of models:
 
 #### 2. **Many to One model**:
 
-![manytoone](https://scdn.web.app/blog/os/manytoone.png)
+![manytoone](https://scdn.netlify.app/blog/os/manytoone.png)
 
 **Advantages**: 
 
@@ -489,7 +489,7 @@ Three types of models:
 
 #### 3. **Many to Many model**:
 
-![manytomany](https://scdn.web.app/blog/os/manytomany.png)
+![manytomany](https://scdn.netlify.app/blog/os/manytomany.png)
 
 **Advantages**: 
 
@@ -626,11 +626,11 @@ gcc -o main main.c -pthread
 
 ### Kernel vs User Level Threads
 
-![userlevelvkernellevel](https://scdn.web.app/blog/os/userlevelvkernellevel.png)
+![userlevelvkernellevel](https://scdn.netlify.app/blog/os/userlevelvkernellevel.png)
 
 ### Thread related data structures
 
-![threadds](https://scdn.web.app/blog/os/threadds.png)
+![threadds](https://scdn.netlify.app/blog/os/threadds.png)
 
 ### Hard vs Light Process states
 
@@ -687,11 +687,11 @@ PCB is divided into multiple data structures classified as follows:
 
 ### Interrupts
 
-![interrupts](https://scdn.web.app/blog/os/interrupts.png)
+![interrupts](https://scdn.netlify.app/blog/os/interrupts.png)
 
 ### Signals
 
-![signals](https://scdn.web.app/blog/os/signals.png)
+![signals](https://scdn.netlify.app/blog/os/signals.png)
 
 #### Handlers / Actions
 - Default actions
@@ -711,7 +711,7 @@ PCB is divided into multiple data structures classified as follows:
     - SIGALARM
 ### Why disable Interrupts or Signals
 
-![disableis](https://scdn.web.app/blog/os/disableis.png)
+![disableis](https://scdn.netlify.app/blog/os/disableis.png)
 
 Here PC: First instruction in handler<br>
 SP : thread stack
@@ -755,7 +755,7 @@ reset_field_in_mask(mask)
     
 ### Handling interrupts as threads
 
-![interruptsasthreads](https://scdn.web.app/blog/os/interruptsasthreads.png)
+![interruptsasthreads](https://scdn.netlify.app/blog/os/interruptsasthreads.png)
 
 but dynamic thread creation is expensive!
 
@@ -769,14 +769,14 @@ but dynamic thread creation is expensive!
     
 ### Threads and Signal Handling
 
-![tshandling](https://scdn.web.app/blog/os/tshandling.png)
+![tshandling](https://scdn.netlify.app/blog/os/tshandling.png)
 
 **Case 1 :**
 
 * User-Level-Thread mask = 1
 * Kernel-Level-Thread mask = 1
 
-![case1](https://scdn.web.app/blog/os/case1.png)
+![case1](https://scdn.netlify.app/blog/os/case1.png)
 
 **Case 2 :**
 
@@ -784,7 +784,7 @@ but dynamic thread creation is expensive!
 * Kernel-Level-Thread mask = 1
 * another User-Level-Thread mask = 1
 
-![case2](https://scdn.web.app/blog/os/case2.png)
+![case2](https://scdn.netlify.app/blog/os/case2.png)
 
 **Case 3 :**
 
@@ -793,7 +793,7 @@ but dynamic thread creation is expensive!
 * another User-Level-Thread mask = 1
 * another Kernel-Level-Thread mask = 1
 
-![case3](https://scdn.web.app/blog/os/case3.png)
+![case3](https://scdn.netlify.app/blog/os/case3.png)
 
 **Case 4 :**
 
@@ -801,7 +801,7 @@ but dynamic thread creation is expensive!
 * Kernel-Level-Thread mask = 1
 * all User-Level-Thread mask = 0
 
-![case4](https://scdn.web.app/blog/os/case4.png)
+![case4](https://scdn.netlify.app/blog/os/case4.png)
 
 **Optimize common case**
 
@@ -842,7 +842,7 @@ How to best provide concurrency?
 
 ## Event Driven model
 
-![eventdrivenmodel](https://scdn.web.app/blog/os/eventdrivenmodel.png)
+![eventdrivenmodel](https://scdn.netlify.app/blog/os/eventdrivenmodel.png)
 
 Features:
 
@@ -906,7 +906,7 @@ Since asynchronous calls are not easily avalible, helpers can be used to impleme
 
 Eg [Apache Web Server](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
 
-![apachewebserver.png](https://scdn.web.app/blog/os/apachewebserver.png)
+![apachewebserver.png](https://scdn.netlify.app/blog/os/apachewebserver.png)
 
 * Core : basic server skeleton
 * Modules : per functionality
@@ -1006,7 +1006,7 @@ For SJF,
 
 T2 arrives first.
 
-![preemptive](https://scdn.web.app/blog/os/preemptive.png)
+![preemptive](https://scdn.netlify.app/blog/os/preemptive.png)
 
 ### Priority Scheduling
 
@@ -1014,7 +1014,7 @@ T2 arrives first.
 * Run highest priority task next (preemption)
 * Starvation is possible
 
-![priority](https://scdn.web.app/blog/os/priority.png)
+![priority](https://scdn.netlify.app/blog/os/priority.png)
 
 ```
 runqueue = per priority_queue()
@@ -1037,11 +1037,11 @@ runqueue = tree() ordered on priority
 * Starvation is NOT possible
 
 
-![rr1](https://scdn.web.app/blog/os/rr1.png)
+![rr1](https://scdn.netlify.app/blog/os/rr1.png)
 
-![rr2](https://scdn.web.app/blog/os/rr2.png)
+![rr2](https://scdn.netlify.app/blog/os/rr2.png)
 
-![rr3](https://scdn.web.app/blog/os/rr3.png)
+![rr3](https://scdn.netlify.app/blog/os/rr3.png)
 
 ### 4. Shortest Remaining Time First (SRTF)
 
@@ -1058,7 +1058,7 @@ runqueue = tree() ordered on priority
 	- timesharing the CPU
     - CPU bound tasks => preemption after timeslice
     
-![rr4](https://scdn.web.app/blog/os/rr4.png)    
+![rr4](https://scdn.netlify.app/blog/os/rr4.png)    
 
 **Advantages**<br>
 
@@ -1077,13 +1077,13 @@ runqueue = tree() ordered on priority
 
 ### For CPU bound tasks: 
 
-![cputs](https://scdn.web.app/blog/os/cputs.png)    
+![cputs](https://scdn.netlify.app/blog/os/cputs.png)    
 
 * Hence, for CPU bound tasks, larger timeslice values are better
 
 ### For I/O bound tasks: 
 
-![iots](https://scdn.web.app/blog/os/iots.png)    
+![iots](https://scdn.netlify.app/blog/os/iots.png)    
 
 * Hence, for I/O bound tasks, smaller timeslice values are better
 	- Keeps CPU and I/P devices busy, I/O bound tasks run quickly, makes I/O requests responds to a user.
@@ -1117,7 +1117,7 @@ Operating systems:
         
 ## Memory Management Goals
 
-![mmgoals.png](https://scdn.web.app/blog/os/mmgoals.png)
+![mmgoals.png](https://scdn.netlify.app/blog/os/mmgoals.png)
 
 #### Virtual vs Physical memory
 
@@ -1139,7 +1139,7 @@ Operating systems:
 
 ## Hardware Support 
 
-![hardwaresupport.png](https://scdn.web.app/blog/os/hardwaresupport.png)
+![hardwaresupport.png](https://scdn.netlify.app/blog/os/hardwaresupport.png)
 
 ### Memory Management Unit (MMU)  
 
@@ -1162,7 +1162,7 @@ Operating systems:
 
 ## Page Tables
 
-![pagetables.png](https://scdn.web.app/blog/os/pagetables.png)
+![pagetables.png](https://scdn.netlify.app/blog/os/pagetables.png)
 
 - OS creates page table per process
 - On context switch, switch to valid page table
@@ -1171,7 +1171,7 @@ Operating systems:
     
 ## Page Table Entry (PTE)     
 
-![pfn.png](https://scdn.web.app/blog/os/pfn.png)
+![pfn.png](https://scdn.netlify.app/blog/os/pfn.png)
 
 #### Flags
 
@@ -1182,7 +1182,7 @@ Operating systems:
 
 ## Page Table Entry on x86   
 
-![pfnx86.png](https://scdn.web.app/blog/os/pfnx86.png)
+![pfnx86.png](https://scdn.netlify.app/blog/os/pfnx86.png)
 
 #### Flags
 
@@ -1196,11 +1196,11 @@ Operating systems:
 
 ## Page faults
 
-![pagefaults.png](https://scdn.web.app/blog/os/pagefaults.png)
+![pagefaults.png](https://scdn.netlify.app/blog/os/pagefaults.png)
 
 ## Page Table Size
 
-![pts.png](https://scdn.web.app/blog/os/pts.png)
+![pts.png](https://scdn.netlify.app/blog/os/pts.png)
 
 * 32 bit architecture
 	- Page Table Entry (PTE) = 4 Bytes, including PFN + flags
@@ -1222,7 +1222,7 @@ But Page Table assumes an entry per VPN regardless, of whether corresponding vir
 
 ## Hierarchical Page Tables
 
-![hierarchicalpt.png](https://scdn.web.app/blog/os/hierarchicalpt.png)
+![hierarchicalpt.png](https://scdn.netlify.app/blog/os/hierarchicalpt.png)
 
 On malloc, a new internal page table may be allocated.
 
@@ -1256,7 +1256,7 @@ Additional Layers
 - Important on 64 bit architectures
 - larger and more sparse => larger gaps would save more internal page table components
 
-![hierarchicalpt2.png](https://scdn.web.app/blog/os/hierarchicalpt2.png)
+![hierarchicalpt2.png](https://scdn.netlify.app/blog/os/hierarchicalpt2.png)
 
 ### Tradeoffs of Multilevel Page Tables
 
@@ -1284,7 +1284,7 @@ which results in slowdown.
 
 ## Page Table Cache
 
-![ptcache.png](https://scdn.web.app/blog/os/ptcache.png)
+![ptcache.png](https://scdn.netlify.app/blog/os/ptcache.png)
 
 #### Translation Lookaside Buffer
 
@@ -1301,11 +1301,11 @@ which results in slowdown.
 
 ### Inverted Page Tables
 
-![invertedpt.png](https://scdn.web.app/blog/os/invertedpt.png)
+![invertedpt.png](https://scdn.netlify.app/blog/os/invertedpt.png)
 
 ### Hashing Page Tables
 
-![hashingpt.png](https://scdn.web.app/blog/os/hashingpt.png)
+![hashingpt.png](https://scdn.netlify.app/blog/os/hashingpt.png)
 
 ## Segmentation
 
@@ -1318,11 +1318,11 @@ Segmentation is the process of mapping virtual to physical memory using segments
 	- contiguous physical memory
     - segment size = segment base + limit registers
 
-![segmentation.png](https://scdn.web.app/blog/os/segmentation.png)
+![segmentation.png](https://scdn.netlify.app/blog/os/segmentation.png)
 
 #### Segmentation + Paging
 
-![segmentationpaging.png](https://scdn.web.app/blog/os/segmentationpaging.png)
+![segmentationpaging.png](https://scdn.netlify.app/blog/os/segmentationpaging.png)
 
 ## Page Size
 
@@ -1372,7 +1372,7 @@ In real world examples,
 
 - pages swapped in/out of memory & a swap partition (e.g. on a disk)
     
-![demandpaging.png](https://scdn.web.app/blog/os/demandpaging.png)
+![demandpaging.png](https://scdn.netlify.app/blog/os/demandpaging.png)
 
 * Original PA != PA after swapping
 	- if page is "pinned", swapping is disabled
@@ -1453,7 +1453,7 @@ Checkpointing can also be used in other services:
     - processes send/write messages to this port
     - processes receive/read messages from this port
 
-![messagepassingipc.png](https://scdn.web.app/blog/os/messagepassingipc.png)
+![messagepassingipc.png](https://scdn.netlify.app/blog/os/messagepassingipc.png)
 
 * Kernel required to 
 	- establish communication
@@ -1479,7 +1479,7 @@ Checkpointing can also be used in other services:
 - Carry byte stream between 2 process
 - e.g connect output from 1 process to input of another
     
-![pipes.png](https://scdn.web.app/blog/os/pipes.png)    
+![pipes.png](https://scdn.netlify.app/blog/os/pipes.png)    
 
 #### 2. Message queues
 
@@ -1487,7 +1487,7 @@ Checkpointing can also be used in other services:
 - OS management includes priorities, scheduling of message delivery 
 - APIs : Sys-V and POSIX
     
-![msgq.png](https://scdn.web.app/blog/os/msgq.png)        
+![msgq.png](https://scdn.netlify.app/blog/os/msgq.png)        
 
 #### 3. Sockets
 
@@ -1497,7 +1497,7 @@ Checkpointing can also be used in other services:
 - If different machines, channel between processes and network devices
 - If same machine, bypass full protocol stack
     
-![sockets.png](https://scdn.web.app/blog/os/sockets.png)        
+![sockets.png](https://scdn.netlify.app/blog/os/sockets.png)        
 
 ## Shared Memory IPC
 
@@ -1509,7 +1509,7 @@ Checkpointing can also be used in other services:
     4. physical mempry doesn't need to be contiguous
 * APIs : SysV, POSIX, memory mapped files, Android ashmem   
 
-![sharedmemoryipc.png](https://scdn.web.app/blog/os/sharedmemoryipc.png)
+![sharedmemoryipc.png](https://scdn.netlify.app/blog/os/sharedmemoryipc.png)
 
 **Advantages**<br>
 
@@ -1682,7 +1682,7 @@ All need hardware support.
 
 Also called symmetric multiprocessors (SMP)
 
-![sharedmmmp](https://scdn.web.app/blog/os/sharedmmmp.png)
+![sharedmmmp](https://scdn.netlify.app/blog/os/sharedmmmp.png)
 
 * Caches 
 	- hide memory latency, "memory" further away due to contention
@@ -1690,9 +1690,9 @@ Also called symmetric multiprocessors (SMP)
 
 ### Cache Coherence
 
-![cachecoherence](https://scdn.web.app/blog/os/cachecoherence.png)
+![cachecoherence](https://scdn.netlify.app/blog/os/cachecoherence.png)
 
-![cachecoherence2](https://scdn.web.app/blog/os/cachecoherence2.png)
+![cachecoherence2](https://scdn.netlify.app/blog/os/cachecoherence2.png)
 
 <hr>
 
@@ -1754,7 +1754,7 @@ Linux supports a number of pseudo "virtual" devices that provide special functio
 
 ## CPU device interactions
 
-![iointeractions.png](https://scdn.web.app/blog/os/iointeractions.png)
+![iointeractions.png](https://scdn.netlify.app/blog/os/iointeractions.png)
 
 access device registers : memory load/store
 
@@ -1806,7 +1806,7 @@ For DMAs
 
 ## Typical Device Access
 
-![typicaldeviceaccess.png](https://scdn.web.app/blog/os/typicaldeviceaccess.png)
+![typicaldeviceaccess.png](https://scdn.netlify.app/blog/os/typicaldeviceaccess.png)
 
 - System call
 - In-kernel stack
@@ -1816,7 +1816,7 @@ For DMAs
 
 ### OS bypass
 
-![osbypass.png](https://scdn.web.app/blog/os/osbypass.png)
+![osbypass.png](https://scdn.netlify.app/blog/os/osbypass.png)
 
 - device registers/data
 	- directly available
@@ -1831,7 +1831,7 @@ For DMAs
 
 ## What happens to a calling thread?
 
-![access.png](https://scdn.web.app/blog/os/access.png)
+![access.png](https://scdn.netlify.app/blog/os/access.png)
 
 * Synchronous I/O operations
 	- process blocks
@@ -1845,7 +1845,7 @@ For DMAs
 
 Block device typical storage for files:
 
-![blockdevicestack.png](https://scdn.web.app/blog/os/blockdevicestack.png)
+![blockdevicestack.png](https://scdn.netlify.app/blog/os/blockdevicestack.png)
 
 - processes use files => logical storage unit
 - kernel file system (KFS)
@@ -1857,7 +1857,7 @@ Block device typical storage for files:
 
 ## Virtual File System
 
-![vfs.png](https://scdn.web.app/blog/os/vfs.png)
+![vfs.png](https://scdn.netlify.app/blog/os/vfs.png)
 
 ### Virtual File System Abstractions
 
@@ -1930,7 +1930,7 @@ Reducing file access overheads
 
 Virtualization allows concurrent execution of multiple OSs and their applications on the same physical machine.
 
-![virtualization.png](https://scdn.web.app/blog/os/virtualization.png)
+![virtualization.png](https://scdn.netlify.app/blog/os/virtualization.png)
 
 * Virtual resources : each OS thinks that ot "owns" hardware resources
 * Virtual machine (VM) : OS + applications + virtual resources (guest domain)
@@ -1963,7 +1963,7 @@ A Virtual Machine is an efficient, isolated duplicate of the real machine.
 
 ### 1. Bare-metal or Hypervisor based (Type 1)
 
-![hypervisor.png](https://scdn.web.app/blog/os/hypervisor.png)
+![hypervisor.png](https://scdn.netlify.app/blog/os/hypervisor.png)
 
 * VMM (hypervisor) manages all hardware resources abd supports execution of VMs
 * privileged, secure VM to deal with devices (and other configuration and management tasks)
@@ -1971,7 +1971,7 @@ A Virtual Machine is an efficient, isolated duplicate of the real machine.
 
 ### 1. Hosted (Type 2)
 
-![hosted.png](https://scdn.web.app/blog/os/hosted.png)
+![hosted.png](https://scdn.netlify.app/blog/os/hosted.png)
 
 * Host owns all hardware
 * Special VMM modle provides hardware interfaces to VMs and deals with VM context switching
@@ -1991,7 +1991,7 @@ A Virtual Machine is an efficient, isolated duplicate of the real machine.
 
 Commodity hardware has more than two protection levels
 
-![hwprotectionlevels](https://scdn.web.app/blog/os/hwprotectionlevels.png)
+![hwprotectionlevels](https://scdn.netlify.app/blog/os/hwprotectionlevels.png)
 
 * x86 has 4 protection levels (rings)
 	- ring 3 : lowest privilege (applications)
@@ -2085,7 +2085,7 @@ Overheads eliminated or reduced on newer platforms
 
 Approach: VMM-level-driver configures device access permissions
 
-![passthrough.png](https://scdn.web.app/blog/os/passthrough.png)
+![passthrough.png](https://scdn.netlify.app/blog/os/passthrough.png)
 
 **Advantages**<br>
 
@@ -2107,7 +2107,7 @@ Approach:
     - traverse VMM-resident I/O stack
     - invoke VMM-resident driver
     
-![hypervisordirect.png](https://scdn.web.app/blog/os/hypervisordirect.png)    
+![hypervisordirect.png](https://scdn.netlify.app/blog/os/hypervisordirect.png)    
 
 **Advantages**<br>
 
@@ -2130,7 +2130,7 @@ Approach:
     - modified guest drivers
     	- i.e. limited to paravirtualized guests
 
-![splitdevicedriver.png](https://scdn.web.app/blog/os/splitdevicedriver.png)          
+![splitdevicedriver.png](https://scdn.netlify.app/blog/os/splitdevicedriver.png)          
 
 **Advantages**<br>
 
@@ -2164,7 +2164,7 @@ Example : GetFile App
 
 ## RPC requirements
 
-![rpcrequirements](https://scdn.web.app/blog/os/rpcrequirements.png)
+![rpcrequirements](https://scdn.netlify.app/blog/os/rpcrequirements.png)
 
 1. Client/Server interactions
 2. Procedure Call Interface => RPC
@@ -2179,7 +2179,7 @@ Example : GetFile App
     
 ## Structure of RPC
 
-![rpcstructure](https://scdn.web.app/blog/os/rpcstructure.png)
+![rpcstructure](https://scdn.netlify.app/blog/os/rpcstructure.png)
 
 ## RPC Steps:
 
@@ -2211,11 +2211,11 @@ RPC can use IDL that is
     
 ## Marshalling
 
-![Marshalling](https://scdn.web.app/blog/os/marshalling.png)
+![Marshalling](https://scdn.netlify.app/blog/os/marshalling.png)
 
 ## Unmarshalling
 
-![Unmarshalling](https://scdn.web.app/blog/os/unmarshalling.png)
+![Unmarshalling](https://scdn.netlify.app/blog/os/unmarshalling.png)
 
 Marshalling/Unmarshalling routines are provided by RPC system compiler.
 
@@ -2290,9 +2290,9 @@ here, y points to location in caller address space
     
 ## Remote File Service : Extremes
 
-![extremes](https://scdn.web.app/blog/os/extremes.png)
+![extremes](https://scdn.netlify.app/blog/os/extremes.png)
 
-![extremes2](https://scdn.web.app/blog/os/extremes2.png)
+![extremes2](https://scdn.netlify.app/blog/os/extremes2.png)
 
 1. Extreme1 : Upload/Download
 	- like FTP, SVN 
@@ -2331,7 +2331,7 @@ Keeps no state; Okay with extreme models, but can't support 'practical' model|Ke
 * Locally clients perform operations on cached state (e.g. open/read/write)
 * requires coherent mechanisms
 
-![cachingstate.png](https://scdn.web.app/blog/os/cachingstate.png)
+![cachingstate.png](https://scdn.netlify.app/blog/os/cachingstate.png)
 
 |System|How|When|
 |---|----|----|
@@ -2505,7 +2505,7 @@ Application access algorithm
 
 ## DSM metadata
 
-![metadata.png](https://scdn.web.app/blog/os/metadata.png)
+![metadata.png](https://scdn.netlify.app/blog/os/metadata.png)
 
 ## Implementing DSMs
 
@@ -2530,7 +2530,7 @@ Application access algorithm
     
 ### Our notation    
    
-![notation.png](https://scdn.web.app/blog/os/notation.png)
+![notation.png](https://scdn.netlify.app/blog/os/notation.png)
 
 * R_m1(X) => X was read from memory location m1
 * W_m1(Y) => Y was written to memory location m1
@@ -2539,7 +2539,7 @@ Application access algorithm
 
 Strict Consistency => updates visible everywhere immediately
 
-![strict.png](https://scdn.web.app/blog/os/strict.png)
+![strict.png](https://scdn.netlify.app/blog/os/strict.png)
 
 - In practice
 	- Even on single SMP no guarantees on order without extra locking and synchronization
@@ -2548,7 +2548,7 @@ Strict Consistency => updates visible everywhere immediately
 
 ### Sequential Consistency
 
-![seq.png](https://scdn.web.app/blog/os/seq.png)
+![seq.png](https://scdn.netlify.app/blog/os/seq.png)
 
 Sequential consistency =>
 
@@ -2558,14 +2558,14 @@ Sequential consistency =>
 
 ### Causal Consistency
 
-![causal.png](https://scdn.web.app/blog/os/causal.png)
+![causal.png](https://scdn.netlify.app/blog/os/causal.png)
 
 * For writes not causally related, "concurrent" writes doesnt gurantee.
 * Don't permit arbitrary ordering from same process writer
 
 ### Weak Consistency
 
-![weak.png](https://scdn.web.app/blog/os/weak.png)
+![weak.png](https://scdn.netlify.app/blog/os/weak.png)
 
 * Use of synchronization
 	- Synchronization point => operations that are available (R,W,Sync)

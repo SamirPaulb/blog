@@ -25,7 +25,7 @@ license: "CC BY 4.0"
 draft: false
  
 # editPost:
-#   URL: "https://github.com/SamirPaul1/blog"
+#   URL: "https://github.com/SamirPaulb/blog"
 #   Text: "Suggest Changes" # edit text
 #   appendFilePath: true # to append file path to Edit link
 
@@ -41,7 +41,7 @@ draft: false
 > Learn how to design systems at scale and prepare for system design interviews.
 
 <p align="center">
-<a class="btn-lang" href="https://scdn.web.app/doc/system-design.pdf" target = "_blank">Download PDF</a>
+<a class="btn-lang" href="https://scdn.netlify.app/doc/system-design.pdf" target = "_blank">Download PDF</a>
 </p>
 
 # Table of contents
@@ -2145,7 +2145,7 @@ On the other hand, planning around BASE limitations can sometimes be a major dis
 
 CAP theorem states that a distributed system can deliver only two of the three desired characteristics Consistency, Availability, and Partition tolerance (CAP).
  <p align="center">
-    <img src="https://scdn.web.app/img/system-design/cap-theorem-key-65.jpg" alt="CPA">
+    <img src="https://scdn.netlify.app/img/system-design/cap-theorem-key-65.jpg" alt="CPA">
  </p>
 
 
@@ -2220,7 +2220,7 @@ NoSQL databases are great for distributed networks. They allow for **horizontal 
 
 
  <p align="center">
-    <img src="https://scdn.web.app/img/system-design/cap_theorem-system-design-samirpaul1.jpg" alt="cap-theorem">
+    <img src="https://scdn.netlify.app/img/system-design/cap_theorem-system-design-samirpaul1.jpg" alt="cap-theorem">
  </p>
 
 

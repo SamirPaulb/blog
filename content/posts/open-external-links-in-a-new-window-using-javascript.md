@@ -24,7 +24,7 @@ license: "CC BY 4.0"
 draft: false
 
 # editPost:
-#   URL: "https://github.com/SamirPaul1/blog"
+#   URL: "https://github.com/SamirPaulb/blog"
 #   Text: "Suggest Changes" # edit text
 #   appendFilePath: true # to append file path to Edit link
 

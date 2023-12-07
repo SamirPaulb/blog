@@ -21,7 +21,7 @@ draft: false
 
 PyShooter is a two-dimensional shooter game in which the player runs horizontally and fires at enemies.
 
-##### Repository: [https://github.com/SamirPaul1/PyShooter](https://github.com/SamirPaul1/PyShooter)
+##### Repository: [https://github.com/SamirPaulb/PyShooter](https://github.com/SamirPaulb/PyShooter)
 
 ## Demo: 
 

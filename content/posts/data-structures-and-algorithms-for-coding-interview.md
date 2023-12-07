@@ -5,12 +5,12 @@ date: 2022-10-04T15:58:26+08:00
 description: "Data Structures and Algorithms for Coding Interview"
 tags: [dsa]
 cover:
-  image: "https://scdn.web.app/dsalgo.gif"
+  image: "https://scdn.netlify.app/dsalgo.gif"
   alt: "Data Structures and Algorithms for Coding Interview"
   caption: "Data Structures and Algorithms for Coding Interview"
 
 images:
-  - https://scdn.web.app/dsalgo.gif
+  - https://scdn.netlify.app/dsalgo.gif
 
 # videos:
 #   - filename01.mov
@@ -25,7 +25,7 @@ license: "CC BY 4.0"
 draft: false
 
 # editPost:
-#   URL: "https://github.com/SamirPaul1/blog"
+#   URL: "https://github.com/SamirPaulb/blog"
 #   Text: "Suggest Changes" # edit text
 #   appendFilePath: true # to append file path to Edit link
 
@@ -35,54 +35,54 @@ draft: false
  
 
 
-<b> Repository Link: [https://github.com/SamirPaul1/DSAlgo](https://github.com/SamirPaul1/DSAlgo) </b>
+<b> Repository Link: [https://github.com/SamirPaulb/DSAlgo](https://github.com/SamirPaulb/DSAlgo) </b>
 > In this repository, I have stored solutions to various problems and concepts of **Data Structures and Algorithms** in Python in a structured manner.
 
 <p align="center">
-<a href="https://github.com/SamirPaul1/DSAlgo"> 
-<img alt="Stars" loading="lazy" src="https://img.shields.io/github/stars/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Forks" loading="lazy" src="https://img.shields.io/github/forks/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Size" loading="lazy" src="https://img.shields.io/github/repo-size/SamirPaul1/DSAlgo?style=for-the-badge"> 
-<img alt="Lines" loading="lazy" src="https://img.shields.io/tokei/lines/github/SamirPaul1/DSAlgo?style=for-the-badge"> 
+<a href="https://github.com/SamirPaulb/DSAlgo"> 
+<img alt="Stars" loading="lazy" src="https://img.shields.io/github/stars/SamirPaulb/DSAlgo?style=for-the-badge"> 
+<img alt="Forks" loading="lazy" src="https://img.shields.io/github/forks/SamirPaulb/DSAlgo?style=for-the-badge"> 
+<img alt="Size" loading="lazy" src="https://img.shields.io/github/repo-size/SamirPaulb/DSAlgo?style=for-the-badge"> 
+<img alt="Lines" loading="lazy" src="https://img.shields.io/tokei/lines/github/SamirPaulb/DSAlgo?style=for-the-badge"> 
 </a>
 </p>
 
 
 ### ***Topics Covered***:
-- [x]  [**Dynamic Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming)
-- [x]  [**Sorting Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/03_Sorting-Algorithms)
-- [x]  [**LinkedList**](https://github.com/SamirPaul1/DSAlgo/tree/main/04_LinkedList)
-- [x]  [**Object-Oriented Programming**](https://github.com/SamirPaul1/DSAlgo/tree/main/05_Object-Oriented-Programming)
-- [x]  [**Binary Trees**](https://github.com/SamirPaul1/DSAlgo/tree/main/06_Binary-Trees)
-- [x]  [**Graph Algorithms**](https://github.com/SamirPaul1/DSAlgo/tree/main/07_Graph)
-- [x]  [**Heap**](https://github.com/SamirPaul1/DSAlgo/tree/main/08_Heap)
-- [x]  [**Matrix**](https://github.com/SamirPaul1/DSAlgo/tree/main/09_Matrix)
-- [x]  [**Trie**](https://github.com/SamirPaul1/DSAlgo/tree/main/10_Trie)
-- [x]  [**Binary Search**](https://github.com/SamirPaul1/DSAlgo/tree/main/11_Binary-Search)
-- [x]  [**Backtracking**](https://github.com/SamirPaul1/DSAlgo/tree/main/12_Backtracking)
-- [x]  [**Stack**](https://github.com/SamirPaul1/DSAlgo/tree/main/13_Stack)
-- [x]  [**Queue**](https://github.com/SamirPaul1/DSAlgo/tree/main/14_Queue)
-- [x]  [**Greedy**](https://github.com/SamirPaul1/DSAlgo/tree/main/15_Greedy)
-- [x]  [**String**](https://github.com/SamirPaul1/DSAlgo/tree/main/16_String)
-- [x]  [**Bit Manipulation**](https://github.com/SamirPaul1/DSAlgo/tree/main/17_Bit-Manipulation)
-- [x]  [**Array**](https://github.com/SamirPaul1/DSAlgo/tree/main/18_Array)
-- [x]  [**HashMap**](https://github.com/SamirPaul1/DSAlgo/tree/main/19_HashMap)
-- [x]  [**DFS BFS**](https://github.com/SamirPaul1/DSAlgo/tree/main/20_DFS-BFS)
-- [x]  [**Two Pointers**](https://github.com/SamirPaul1/DSAlgo/tree/main/21_Two-Pointers)
-- [x]  [**Math**](https://github.com/SamirPaul1/DSAlgo/tree/main/22_Math) 
-- [x]  [**Recursion**](https://github.com/SamirPaul1/DSAlgo/tree/main/23_Recursion) 
+- [x]  [**Dynamic Programming**](https://github.com/SamirPaulb/DSAlgo/tree/main/02_Dynamic-Programming)
+- [x]  [**Sorting Algorithms**](https://github.com/SamirPaulb/DSAlgo/tree/main/03_Sorting-Algorithms)
+- [x]  [**LinkedList**](https://github.com/SamirPaulb/DSAlgo/tree/main/04_LinkedList)
+- [x]  [**Object-Oriented Programming**](https://github.com/SamirPaulb/DSAlgo/tree/main/05_Object-Oriented-Programming)
+- [x]  [**Binary Trees**](https://github.com/SamirPaulb/DSAlgo/tree/main/06_Binary-Trees)
+- [x]  [**Graph Algorithms**](https://github.com/SamirPaulb/DSAlgo/tree/main/07_Graph)
+- [x]  [**Heap**](https://github.com/SamirPaulb/DSAlgo/tree/main/08_Heap)
+- [x]  [**Matrix**](https://github.com/SamirPaulb/DSAlgo/tree/main/09_Matrix)
+- [x]  [**Trie**](https://github.com/SamirPaulb/DSAlgo/tree/main/10_Trie)
+- [x]  [**Binary Search**](https://github.com/SamirPaulb/DSAlgo/tree/main/11_Binary-Search)
+- [x]  [**Backtracking**](https://github.com/SamirPaulb/DSAlgo/tree/main/12_Backtracking)
+- [x]  [**Stack**](https://github.com/SamirPaulb/DSAlgo/tree/main/13_Stack)
+- [x]  [**Queue**](https://github.com/SamirPaulb/DSAlgo/tree/main/14_Queue)
+- [x]  [**Greedy**](https://github.com/SamirPaulb/DSAlgo/tree/main/15_Greedy)
+- [x]  [**String**](https://github.com/SamirPaulb/DSAlgo/tree/main/16_String)
+- [x]  [**Bit Manipulation**](https://github.com/SamirPaulb/DSAlgo/tree/main/17_Bit-Manipulation)
+- [x]  [**Array**](https://github.com/SamirPaulb/DSAlgo/tree/main/18_Array)
+- [x]  [**HashMap**](https://github.com/SamirPaulb/DSAlgo/tree/main/19_HashMap)
+- [x]  [**DFS BFS**](https://github.com/SamirPaulb/DSAlgo/tree/main/20_DFS-BFS)
+- [x]  [**Two Pointers**](https://github.com/SamirPaulb/DSAlgo/tree/main/21_Two-Pointers)
+- [x]  [**Math**](https://github.com/SamirPaulb/DSAlgo/tree/main/22_Math) 
+- [x]  [**Recursion**](https://github.com/SamirPaulb/DSAlgo/tree/main/23_Recursion) 
 
 In various folders of the above topics, you can find questions and concepts related to that topic. 
 
  
 
-- In the [Dynamic Programming](https://github.com/SamirPaul1/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaul1/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf).✍️
+- In the [Dynamic Programming](https://github.com/SamirPaulb/DSAlgo/tree/main/02_Dynamic-Programming) section, you can find all the questions covered and not covered in [Aditya Verma's](https://www.youtube.com/c/AdityaVermaTheProgrammingLord) [dynamic programming playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) folder-wise with my [handwritten notes](https://raw.githubusercontent.com/SamirPaulb/DSAlgo/main/02_Dynamic-Programming/Dynamic-Programming-NOTE.pdf).✍️
 
-- If you are preparing for an interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.🎯
+- If you are preparing for an interview from [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) then the [**30-Days-SDE-Sheet-Practice**](https://github.com/SamirPaulb/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice) will be helpful to you. Here I have stored solutions to questions of each day with short notes to each solution, as short notes about the approach are very helpful during revision.🎯
 
-- In the  [**Questions-Sheet**](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet) directory, you can find questions asked by top product-based companies.
+- In the  [**Questions-Sheet**](https://github.com/SamirPaulb/DSAlgo/tree/main/Questions-Sheet) directory, you can find questions asked by top product-based companies.
 
-- There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
+- There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaulb/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
 
 ![DSAlgo repo](https://scdn.netlify.app/img/repository-image-dsalgo-samirpaul1-leetcode-post.jpeg "DSAlgo repository")
@@ -90,7 +90,7 @@ In various folders of the above topics, you can find questions and concepts rela
 ---
 
 <p align="center">
-<b>View this repository in online VS Code: <a href="https://samirpaul1.github.io/DSAlgo">  https://samirpaul.in/DSAlgo.  <img alt="DSAlgo"  loading="lazy" src="https://github.com/SamirPaul1/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
+<b>View this repository in online VS Code: <a href="https://samirpaulb.github.io/DSAlgo">  https://samirpaul.in/DSAlgo.  <img alt="DSAlgo"  loading="lazy" src="https://github.com/SamirPaulb/DSAlgo/actions/workflows/pages/pages-build-deployment/badge.svg">
 </a></b>
 </p>
 
@@ -104,7 +104,7 @@ I am continuously trying to improve this repository by adding new questions and 
 **Things you can contribute to:**
 - Update the existing solution with a better one (better complexity).
 - Add new questions and solutions in ```Python3``` to the respective directory.
-- Add new resources to [BOOKS-and-PDFs](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) & [Questions-Sheet](https://github.com/SamirPaul1/DSAlgo/tree/main/Questions-Sheet).
+- Add new resources to [BOOKS-and-PDFs](https://github.com/SamirPaulb/DSAlgo/tree/main/BOOKS-and-PDFs) & [Questions-Sheet](https://github.com/SamirPaulb/DSAlgo/tree/main/Questions-Sheet).
 - Solve issues raised by other people or yourself.
 - Provide well-documented source code with detailed explanations.
 
@@ -114,7 +114,7 @@ I am continuously trying to improve this repository by adding new questions and 
 
 ### Stargazers over time
 
-<a href="https://github.com/SamirPaul1/DSAlgo"><img alt="Star History" loading="lazy"  src="https://api.star-history.com/svg?repos=SamirPaul1/DSAlgo&type=Date"></a>
+<a href="https://github.com/SamirPaulb/DSAlgo"><img alt="Star History" loading="lazy"  src="https://api.star-history.com/svg?repos=SamirPaulb/DSAlgo&type=Date"></a>
 
 
 ---
@@ -600,7 +600,7 @@ The following list of questions was recommended by [Love Babbar](https://www.you
 
     
 
-### [30 Days Interview Preparation Plan](https://github.com/SamirPaul1/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
+### [30 Days Interview Preparation Plan](https://github.com/SamirPaulb/DSAlgo/tree/main/30-Days-SDE-Sheet-Practice)🎯
 
 <b></b>
 Originally the below sheet was prepared by [Raj Vikramaditya](https://www.youtube.com/c/takeUforward) A.K.A [Striver](https://www.youtube.com/channel/UCvEKHATlVq84hm1jduTYm8g). I have documented this sheet here in markdown.
@@ -1034,7 +1034,7 @@ Day30:
 
 1. [https://samirpaul.in/posts/system-design-course](https://samir.pages.dev/posts/system-design-course)
 
-2. https://github.com/SamirPaul1/system-design
+2. https://github.com/SamirPaulb/system-design
 
   
 
